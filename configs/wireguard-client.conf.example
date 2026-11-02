@@ -1,0 +1,13 @@
+# WireGuard client config for remote admin into the lab. Placeholders only.
+# Split tunnel: only lab traffic goes through the VPN.
+
+[Interface]
+Address = 10.20.20.2/32
+DNS = 10.10.10.10
+PrivateKey = <CLIENT_PRIVATE_KEY>
+
+[Peer]
+PublicKey = <PFSENSE_TUNNEL_PUBLIC_KEY>
+Endpoint = <PUBLIC_IP_OR_DDNS_NAME>:51820
+AllowedIPs = 10.10.10.0/24
+PersistentKeepalive = 25

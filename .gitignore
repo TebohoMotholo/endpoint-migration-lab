@@ -1,0 +1,34 @@
+# Large or licensed binaries
+*.iso
+*.img
+*.vma
+*.vma.zst
+*.vma.gz
+*.qcow2
+*.vhdx
+*.intunewin
+*.msi
+*.exe
+
+# Logs and exports that can contain IDs
+*.log
+*.etl
+*.evtx
+*.zip
+GPOExport/
+noncompliant-devices.csv
+
+# Secrets
+secrets*
+*.pfx
+*.pem
+*.key
+*.crt
+.env
+oauth2-proxy.cfg
+wireguard-client.conf
+
+# OS clutter
+Thumbs.db
+.DS_Store
+desktop.ini

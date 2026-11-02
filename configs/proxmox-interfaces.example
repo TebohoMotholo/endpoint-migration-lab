@@ -1,0 +1,23 @@
+# /etc/network/interfaces on the Proxmox host (relevant part)
+# vmbr0: bridged to the physical NIC, carries the host and pfSense WAN.
+# vmbr1: no physical port. Every lab VM connects here, so lab DHCP/AD cannot leak out.
+
+auto lo
+iface lo inet loopback
+
+iface nic0 inet manual
+
+auto vmbr0
+iface vmbr0 inet static
+        address 192.168.137.250/24
+        gateway 192.168.137.1
+        bridge-ports nic0
+        bridge-stp off
+        bridge-fd 0
+
+auto vmbr1
+iface vmbr1 inet manual
+        bridge-ports none
+        bridge-stp off
+        bridge-fd 0
+#Lab LAN

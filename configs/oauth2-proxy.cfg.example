@@ -1,0 +1,21 @@
+# /etc/oauth2-proxy.cfg on web01. Placeholders only. Never commit the real file.
+# App registration: single tenant, Web redirect URI https://web.lab.teboho.co.za/oauth2/callback
+# Enterprise application: Assignment required = Yes, licensed group assigned.
+
+provider = "oidc"                       # newer versions also accept "entra-id"
+oidc_issuer_url = "https://login.microsoftonline.com/<TENANT_ID>/v2.0"
+client_id = "<APPLICATION_CLIENT_ID>"
+client_secret = "<CLIENT_SECRET>"
+redirect_url = "https://web.lab.teboho.co.za/oauth2/callback"
+
+oidc_email_claim = "preferred_username"
+insecure_oidc_allow_unverified_email = true
+email_domains = ["*"]
+
+# Generate with: openssl rand -base64 32 | tr -- '+/' '-_'
+cookie_secret = "<COOKIE_SECRET>"
+cookie_secure = true
+
+reverse_proxy = true
+http_address = "127.0.0.1:4180"
+upstreams = ["static://202"]
