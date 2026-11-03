@@ -63,7 +63,7 @@ Proxmox VE, pfSense, Windows Server, Active Directory, DNS, DHCP, Group Policy, 
 
 - Case study: [case-study.pdf](case-study.pdf)
 - Demo videos: _coming soon_
-- Portfolio: _add link_
+- Portfolio: _https://tebohomotholo.netlify.app/_
 
 ## Notes
 
