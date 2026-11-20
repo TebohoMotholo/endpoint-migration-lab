@@ -1,0 +1,6 @@
+﻿# 57-laps
+# Command: Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\LAPS\State" -ErrorAction Stop | Format-List
+# Collected: 2026-11-20T19:46:32 on CLIENT02
+
+
+

@@ -1,0 +1,18 @@
+﻿# 08-shares
+# Command: net share
+# Collected: 2026-11-20T19:21:20 on DC01
+
+
+Share name   Resource                        Remark
+
+-------------------------------------------------------------------------------
+C$           C:\                             Default share                     
+IPC$                                         Remote IPC                        
+ADMIN$       C:\WINDOWS                      Remote Admin                      
+NETLOGON     C:\WINDOWS\SYSVOL\sysvol\lab.teboho.co.za\SCRIPTS
+                                             Logon server share                
+SYSVOL       C:\WINDOWS\SYSVOL\sysvol        Logon server share                
+The command completed successfully.
+
+
+

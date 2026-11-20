@@ -1,0 +1,19 @@
+﻿# 10-ou-tree
+# Command: Get-ADOrganizationalUnit -Filter * | Sort DistinguishedName | Select Name, DistinguishedName | Format-Table -AutoSize
+# Collected: 2026-11-20T19:21:20 on DC01
+
+
+Name               DistinguishedName                                      
+----               -----------------                                      
+Computers          OU=Computers,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za       
+Domain Controllers OU=Domain Controllers,DC=lab,DC=teboho,DC=co,DC=za     
+Groups             OU=Groups,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za          
+IT                 OU=IT,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za              
+Lab                OU=Lab,DC=lab,DC=teboho,DC=co,DC=za                    
+Servers            OU=Servers,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za         
+Service Accounts   OU=Service Accounts,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za
+Users              OU=Users,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za           
+
+
+
+

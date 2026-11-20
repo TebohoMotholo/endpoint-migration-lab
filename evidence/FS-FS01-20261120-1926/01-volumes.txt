@@ -1,0 +1,15 @@
+﻿# 01-volumes
+# Command: Get-Volume | Where-Object DriveLetter | Select DriveLetter, FileSystemLabel, FileSystem, @{n='SizeGB';e={[math]::Round($_.Size/1GB,1)}}, @{n='FreeGB';e={[math]::Round($_.SizeRemaining/1GB,1)}} | Format-Table -AutoSize
+# Collected: 2026-11-20T19:26:08 on FS01
+
+
+DriveLetter FileSystemLabel       FileSystem SizeGB FreeGB
+----------- ---------------       ---------- ------ ------
+          F Data                  NTFS           40   39.2
+          C                       NTFS         58.9     33
+          D virtio-win-0.1.302    CDFS          0.8      0
+          E SSS_X64FREE_EN-US_DV9 UDF           7.6      0
+
+
+
+

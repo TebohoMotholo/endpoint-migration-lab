@@ -1,0 +1,19 @@
+﻿# 21-policy-manager
+# Command: Get-ChildItem HKLM:\SOFTWARE\Microsoft\PolicyManager\current\device | Select -Expand PSChildName
+# Collected: 2026-11-20T19:45:44 on CLIENT02
+
+ADMX_RemovableStorage
+BitLocker
+ControlPolicyConflict
+DataProtection
+DeviceHealthMonitoring
+knobs
+LocalPoliciesSecurityOptions
+LocalUsersAndGroups
+office16~Policy~L_MicrosoftOfficemachine~L_Updates
+Security
+System
+Update
+update~Policy~Cat_EdgeUpdate~Cat_Applications~Cat_MicrosoftEdge
+
+

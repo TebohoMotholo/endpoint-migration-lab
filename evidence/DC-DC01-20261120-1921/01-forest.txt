@@ -1,0 +1,17 @@
+﻿# 01-forest
+# Command: Get-ADForest | Select Name, ForestMode, Domains, UPNSuffixes, SchemaMaster, DomainNamingMaster | Format-List
+# Collected: 2026-11-20T19:21:18 on DC01
+
+
+
+Name               : lab.teboho.co.za
+ForestMode         : Windows2025Forest
+Domains            : {lab.teboho.co.za}
+UPNSuffixes        : {teboholab.onmicrosoft.com}
+SchemaMaster       : DC01.lab.teboho.co.za
+DomainNamingMaster : DC01.lab.teboho.co.za
+
+
+
+
+

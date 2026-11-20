@@ -1,0 +1,13 @@
+﻿# 22-adsync-connectors
+# Command: Get-ADSyncConnector | Select Name, Type | Format-Table -AutoSize
+# Collected: 2026-11-20T19:26:29 on FS01
+
+
+Name                            Type       
+----                            ----       
+teboholab.onmicrosoft.com - AAD Extensible2
+lab.teboho.co.za                AD         
+
+
+
+

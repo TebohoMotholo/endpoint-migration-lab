@@ -1,0 +1,12 @@
+﻿# 06-fsrm-autoquota
+# Command: Get-FsrmAutoQuota | Format-Table -AutoSize
+# Collected: 2026-11-20T19:26:21 on FS01
+
+
+Disabled Path                Size SoftLimit Template     Threshold                                                                   UpdateDerived UpdateDerivedMatching PSComputerName
+-------- ----                ---- --------- --------     ---------                                                                   ------------- --------------------- --------------
+   False F:\Shares\Home 104857600     False 100 MB Limit {MSFT_FSRMQuotaThreshold, MSFT_FSRMQuotaThreshold, MSFT_FSRMQuotaThreshold}         False                 False               
+
+
+
+

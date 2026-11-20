@@ -1,0 +1,14 @@
+﻿# 05-fsrm-quotas
+# Command: Get-FsrmQuota | Select Path, @{n='LimitMB';e={$_.Size/1MB}}, @{n='UsedMB';e={[math]::Round($_.Usage/1MB,1)}}, SoftLimit, Template | Format-Table -AutoSize
+# Collected: 2026-11-20T19:26:18 on FS01
+
+
+Path                    LimitMB UsedMB SoftLimit Template    
+----                    ------- ------ --------- --------    
+F:\Shares\Home\teboho       100      0     False 100 MB Limit
+F:\Shares\Home\ndlamini     100      0     False 100 MB Limit
+F:\Shares\Home\tefo         100      0     False 100 MB Limit
+
+
+
+

@@ -1,0 +1,14 @@
+﻿# 05-share-access
+# Command: Get-ChildItem "\\FS01\Shared" -ErrorAction Stop | Select -First 10 Name; "Opened \\FS01\Shared without a credential prompt."
+# Collected: 2026-11-20T20:00:21 on CLIENT02
+
+
+Name             
+----             
+extadsch.exe     
+lab-wallpaper.png
+Opened \\FS01\Shared without a credential prompt.
+
+
+
+

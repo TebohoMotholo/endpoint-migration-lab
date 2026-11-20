@@ -1,0 +1,14 @@
+﻿# 59-secure-boot
+# Command: Confirm-SecureBootUEFI; Get-Tpm | Select TpmPresent, TpmReady | Format-List
+# Collected: 2026-11-20T19:46:32 on CLIENT02
+
+True
+
+
+TpmPresent : True
+TpmReady   : True
+
+
+
+
+

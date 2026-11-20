@@ -1,0 +1,12 @@
+﻿# 20-adsync-version
+# Command: (Get-Item "C:\Program Files\Microsoft Azure AD Sync\Bin\miiserver.exe").VersionInfo | Select ProductVersion | Format-List
+# Collected: 2026-11-20T19:26:24 on FS01
+
+
+
+ProductVersion : 2.6.92.0
+
+
+
+
+

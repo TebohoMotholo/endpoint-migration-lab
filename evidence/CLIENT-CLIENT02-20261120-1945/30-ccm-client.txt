@@ -1,0 +1,19 @@
+﻿# 30-ccm-client
+# Command: Get-CimInstance -Namespace root\ccm -ClassName SMS_Client | Select ClientVersion | Format-List; Get-CimInstance -Namespace root\ccm -ClassName SMS_Authority | Select Name, CurrentManagementPoint | Format-List
+# Collected: 2026-11-20T19:46:09 on CLIENT02
+
+
+
+ClientVersion : 5.00.9141.1011
+
+
+
+
+
+Name                   : SMS:LAB
+CurrentManagementPoint : CM01.lab.teboho.co.za
+
+
+
+
+

@@ -1,0 +1,15 @@
+﻿# 23-system-management
+# Command: Get-ADObject -Filter "Name -eq 'System Management'" -SearchBase "CN=System,$((Get-ADDomain).DistinguishedName)" | Format-List
+# Collected: 2026-11-20T19:21:23 on DC01
+
+
+
+DistinguishedName : CN=System Management,CN=System,DC=lab,DC=teboho,DC=co,DC=za
+Name              : System Management
+ObjectClass       : container
+ObjectGUID        : <guid>
+
+
+
+
+

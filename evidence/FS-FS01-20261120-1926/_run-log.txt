@@ -1,0 +1,20 @@
+﻿Evidence run: FS on FS01 at 2026-11-20T19:26:08
+Run as: fs01\administrator
+OK    01-volumes
+OK    02-shares
+OK    03-share-access
+OK    04-ntfs-acls
+OK    05-fsrm-quotas
+OK    06-fsrm-autoquota
+OK    07-fsrm-screens
+OK    08-shadow-copies
+OK    20-adsync-version
+OK    21-adsync-scheduler
+OK    22-adsync-connectors
+FAIL  23-adsync-features : Cannot bind argument to parameter 'AADUserName' because it is an empty string.
+OK    24-adsync-ou-filter
+OK    25-adsync-last-runs
+OK    26-adsync-autoupgrade
+OK    27-sync-errors
+OK    50-time
+

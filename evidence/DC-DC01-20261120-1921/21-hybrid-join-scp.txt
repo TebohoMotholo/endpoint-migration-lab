@@ -1,0 +1,8 @@
+﻿# 21-hybrid-join-scp
+# Command: Get-ADObject -SearchBase "CN=Configuration,$((Get-ADRootDSE).rootDomainNamingContext)" -Filter "name -eq '<guid>'" -Properties keywords | Select -Expand keywords
+# Collected: 2026-11-20T19:21:22 on DC01
+
+azureADName:teboholab.onmicrosoft.com
+azureADId:<guid>
+
+

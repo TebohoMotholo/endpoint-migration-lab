@@ -1,0 +1,25 @@
+﻿# 31-dns-records
+# Command: Get-DnsServerResourceRecord -ZoneName (Get-ADDomain).DNSRoot | Where-Object RecordType -in 'A','CNAME' | Select HostName, RecordType, @{n='Data';e={ if ($_.RecordData.IPv4Address) { $_.RecordData.IPv4Address } else { $_.RecordData.HostNameAlias } }} | Format-Table -AutoSize
+# Collected: 2026-11-20T19:21:29 on DC01
+
+
+HostName       RecordType Data        
+--------       ---------- ----        
+@              A          10.10.10.10 
+@              A          10.10.10.11 
+client02       A          10.10.10.101
+client03       A          10.10.10.102
+CM01           A          10.10.10.40 
+dc01           A          10.10.10.10 
+DC02           A          10.10.10.11 
+DESKTOP01_IT   A          10.10.10.100
+DomainDnsZones A          10.10.10.11 
+DomainDnsZones A          10.10.10.10 
+ForestDnsZones A          10.10.10.11 
+ForestDnsZones A          10.10.10.10 
+FS01           A          10.10.10.20 
+web            A          10.10.10.30 
+
+
+
+

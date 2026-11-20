@@ -1,0 +1,15 @@
+# 03-vms
+# Command: qm list
+# Collected: 2026-11-20T20:15:44+02:00 on pve
+
+      VMID NAME                 STATUS     MEM(MB)    BOOTDISK(GB) PID       
+       100 pfsense              running    2048              16.00 1330      
+       101 DC01                 running    4096              60.00 1439      
+       102 client01             running    4096              64.00 2514      
+       103 DC02                 stopped    4096              50.00 0         
+       104 FS01                 running    4096              60.00 11072     
+       110 client02             running    4096              64.00 11384     
+       111 client03             stopped    4096              64.00 0         
+       112 client04             stopped    4096              64.00 0         
+       120 CM01                 running    8192              80.00 11160     
+       900 win11-template       stopped    4096              64.00 0         

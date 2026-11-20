@@ -1,0 +1,13 @@
+﻿"Name","IsClient","IsActive","ClientVersion","CoManaged","LastActiveTime","ADSiteName"
+"DESKTOP01_IT","True","True","5.00.9141.1011","True","11/20/2026 5:30:40 PM","Default-First-Site-Name"
+"CLIENT02","True","True","5.00.9141.1011","True","11/20/2026 5:32:38 PM","Default-First-Site-Name"
+"Provisioning Device (Provisioning Device)","False",,,"False",,
+"x86 Unknown Computer (x86 Unknown Computer)","False",,,"False",,
+"x64 Unknown Computer (x64 Unknown Computer)","False",,,"False",,
+"arm64 Unknown Computer (arm64 Unknown Computer)","False",,,"False",,
+"CM01","False",,,"False",,"Default-First-Site-Name"
+"CLIENT03","False",,,"False",,"Default-First-Site-Name"
+"FS01","False",,,"False",,"Default-First-Site-Name"
+"DC02","False",,,"False",,"Default-First-Site-Name"
+"DC01","False",,,"False",,"Default-First-Site-Name"
+

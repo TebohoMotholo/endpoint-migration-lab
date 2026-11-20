@@ -1,0 +1,17 @@
+﻿# 20-mdm-enrollments
+# Command: Get-ChildItem HKLM:\SOFTWARE\Microsoft\Enrollments | ForEach-Object { Get-ItemProperty $_.PSPath } | Where-Object { $_.ProviderID } | Select ProviderID, UPN, EnrollmentType, EnrollmentState | Format-Table -AutoSize
+# Collected: 2026-11-20T19:45:43 on CLIENT02
+
+
+ProviderID                  UPN                                                                    EnrollmentType EnrollmentState
+----------                  ---                                                                    -------------- ---------------
+MS DM Server                fooUser@teboholab.onmicrosoft.com@<guid>              6               1
+WMI_Bridge_SCCM_Server                                                                                         12               1
+Deploy Authority                                                                                               30               1
+Cloud Authority                                                                                                31               1
+Microsoft Device Management fooUser@teboholab.onmicrosoft.com                                                  26               1
+Local Authority                                                                                                28               1
+
+
+
+

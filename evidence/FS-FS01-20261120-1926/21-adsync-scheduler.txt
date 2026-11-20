@@ -1,0 +1,22 @@
+﻿# 21-adsync-scheduler
+# Command: Get-ADSyncScheduler
+# Collected: 2026-11-20T19:26:24 on FS01
+
+
+
+AllowedSyncCycleInterval            : 00:30:00
+CurrentlyEffectiveSyncCycleInterval : 00:30:00
+CustomizedSyncCycleInterval         : 
+NextSyncCyclePolicyType             : Delta
+NextSyncCycleStartTimeInUTC         : 11/20/2026 5:38:26 PM
+PurgeRunHistoryInterval             : 7.00:00:00
+SyncCycleEnabled                    : True
+MaintenanceEnabled                  : True
+StagingModeEnabled                  : False
+SchedulerSuspended                  : False
+SyncCycleInProgress                 : False
+
+
+
+
+

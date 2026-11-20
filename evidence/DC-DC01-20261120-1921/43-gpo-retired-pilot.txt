@@ -1,0 +1,6 @@
+﻿# 43-gpo-retired-pilot
+# Command: Get-GPO -All | ForEach-Object { $g = $_; Get-GPPermission -Guid $g.Id -All | Where-Object { $_.Trustee.Name -eq 'GPO-Retired-Pilot' } | ForEach-Object { "$($g.DisplayName): $($_.Permission) Denied=$($_.Denied)" } }
+# Collected: 2026-11-20T19:21:50 on DC01
+
+
+

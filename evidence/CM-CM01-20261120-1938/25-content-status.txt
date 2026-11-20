@@ -1,0 +1,19 @@
+﻿# 25-content-status
+# Command: InSite { Get-CMDistributionStatus | Select SoftwareName, Targeted, NumberSuccess, NumberInProgress, NumberErrors | Format-Table -AutoSize }
+# Collected: 2026-11-20T19:39:18 on CM01
+
+
+SoftwareName                                                                 Targeted NumberSuccess NumberInProgress NumberErrors
+------------                                                                 -------- ------------- ---------------- ------------
+Microsoft Corporation User State Migration Tool for Windows 10.0.26100.9457         0             0                0            0
+Boot image (x64)                                                                    0             0                0            0
+Microsoft Corporation Configuration Manager Client Package                          1             1                0            0
+Microsoft Corporation Configuration Manager Client Upgrade Package                  1             1                0            0
+Boot image (arm64)                                                                  0             0                0            0
+Google Chrome                                                                       1             1                0            0
+7-Zip 26.04 (x64 edition)                                                           1             1                0            0
+7-Zip 26.04 (x64 edition)-copy                                                      1             1                0            0
+
+
+
+

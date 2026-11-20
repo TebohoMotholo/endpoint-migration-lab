@@ -1,0 +1,20 @@
+﻿# 02-klist-cloud
+# Command: klist cloud_debug
+# Collected: 2026-11-20T20:00:18 on CLIENT02
+
+
+Current LogonId is 0:0xf182ec
+Cloud Kerberos Debug info:
+Cloud Kerberos enabled by policy: 0
+AS_REP callback received: 1
+AS_REP callback used: 1
+Cloud Referral TGT present in cache: 0
+SPN oracle configured: 0
+KDC proxy present in cache: 0
+Public Key Credential Present: 0
+Password-derived Keys Present: 1
+Plaintext Password Present: 0
+AS_REP Credential Type: 0
+Cloud Primary (Hybrid logon) TGT available: 1
+
+

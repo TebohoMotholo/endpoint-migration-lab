@@ -1,0 +1,50 @@
+﻿# 04-ntfs-acls
+# Command: Get-SmbShare | Where-Object { $_.Path -like '*Shares*' } | ForEach-Object { "== $($_.Path)"; icacls $_.Path }
+# Collected: 2026-11-20T19:26:18 on FS01
+
+== F:\Shares\Finance
+F:\Shares\Finance BUILTIN\Administrators:(F)
+                  LAB\Finance-Staff:(OI)(CI)(M)
+                  BUILTIN\Administrators:(OI)(CI)(F)
+                  NT AUTHORITY\SYSTEM:(OI)(CI)(F)
+
+Successfully processed 1 files; Failed processing 0 files
+== F:\Shares\Home
+F:\Shares\Home LAB\Domain Users:(RD,AD,X,RA)
+               BUILTIN\Administrators:(F)
+               CREATOR OWNER:(OI)(CI)(IO)(F)
+               BUILTIN\Administrators:(OI)(CI)(F)
+               NT AUTHORITY\SYSTEM:(OI)(CI)(F)
+
+Successfully processed 1 files; Failed processing 0 files
+== F:\Shares\HR
+F:\Shares\HR BUILTIN\Administrators:(F)
+             LAB\HR-Staff:(OI)(CI)(M)
+             BUILTIN\Administrators:(OI)(CI)(F)
+             NT AUTHORITY\SYSTEM:(OI)(CI)(F)
+
+Successfully processed 1 files; Failed processing 0 files
+== F:\Shares\IT
+F:\Shares\IT BUILTIN\Administrators:(F)
+             LAB\IT-Staff:(OI)(CI)(M)
+             BUILTIN\Administrators:(OI)(CI)(F)
+             NT AUTHORITY\SYSTEM:(OI)(CI)(F)
+
+Successfully processed 1 files; Failed processing 0 files
+== F:\Shares\Shared
+F:\Shares\Shared BUILTIN\Administrators:(F)
+                 LAB\Domain Users:(OI)(CI)(M)
+                 BUILTIN\Administrators:(OI)(CI)(F)
+                 NT AUTHORITY\SYSTEM:(OI)(CI)(F)
+
+Successfully processed 1 files; Failed processing 0 files
+== F:\Shares\Software
+F:\Shares\Software BUILTIN\Administrators:(F)
+                   LAB\Domain Computers:(OI)(CI)(RX)
+                   LAB\Domain Users:(OI)(CI)(RX)
+                   BUILTIN\Administrators:(OI)(CI)(F)
+                   NT AUTHORITY\SYSTEM:(OI)(CI)(F)
+
+Successfully processed 1 files; Failed processing 0 files
+
+

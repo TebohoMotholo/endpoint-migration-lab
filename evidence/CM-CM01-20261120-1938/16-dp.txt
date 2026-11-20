@@ -1,0 +1,12 @@
+﻿# 16-dp
+# Command: InSite { Get-CMDistributionPoint | Select NetworkOSPath | Format-Table -AutoSize }
+# Collected: 2026-11-20T19:39:06 on CM01
+
+
+NetworkOSPath          
+-------------          
+\\CM01.lab.teboho.co.za
+
+
+
+

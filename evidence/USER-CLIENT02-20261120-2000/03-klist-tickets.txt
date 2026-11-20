@@ -1,0 +1,87 @@
+﻿# 03-klist-tickets
+# Command: klist
+# Collected: 2026-11-20T20:00:18 on CLIENT02
+
+
+Current LogonId is 0:0xf182ec
+
+Cached Tickets: (7)
+
+#0>	Client: teboho @ LAB.TEBOHO.CO.ZA
+	Server: krbtgt/LAB.TEBOHO.CO.ZA @ LAB.TEBOHO.CO.ZA
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x60a10000 -> forwardable forwarded renewable pre_authent name_canonicalize 
+	Start Time: 11/20/2026 19:58:17 (local)
+	End Time:   11/21/2026 5:58:16 (local)
+	Renew Time: 11/27/2026 19:58:16 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x2 -> DELEGATION 
+	Kdc Called: DC01.lab.teboho.co.za
+
+#1>	Client: teboho @ LAB.TEBOHO.CO.ZA
+	Server: krbtgt/LAB.TEBOHO.CO.ZA @ LAB.TEBOHO.CO.ZA
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40e10000 -> forwardable renewable initial pre_authent name_canonicalize 
+	Start Time: 11/20/2026 19:58:16 (local)
+	End Time:   11/21/2026 5:58:16 (local)
+	Renew Time: 11/27/2026 19:58:16 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0x1 -> PRIMARY 
+	Kdc Called: DC01.lab.teboho.co.za
+
+#2>	Client: teboho @ LAB.TEBOHO.CO.ZA
+	Server: LDAP/DC02.lab.teboho.co.za/lab.teboho.co.za @ LAB.TEBOHO.CO.ZA
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a50000 -> forwardable renewable pre_authent ok_as_delegate name_canonicalize 
+	Start Time: 11/20/2026 19:58:40 (local)
+	End Time:   11/21/2026 5:58:16 (local)
+	Renew Time: 11/27/2026 19:58:16 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0 
+	Kdc Called: DC01.lab.teboho.co.za
+
+#3>	Client: teboho @ LAB.TEBOHO.CO.ZA
+	Server: HTTP/cm01.lab.teboho.co.za @ LAB.TEBOHO.CO.ZA
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize 
+	Start Time: 11/20/2026 19:58:20 (local)
+	End Time:   11/21/2026 5:58:16 (local)
+	Renew Time: 11/27/2026 19:58:16 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0 
+	Kdc Called: DC01.lab.teboho.co.za
+
+#4>	Client: teboho @ LAB.TEBOHO.CO.ZA
+	Server: cifs/DC02.lab.teboho.co.za/lab.teboho.co.za @ LAB.TEBOHO.CO.ZA
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a50000 -> forwardable renewable pre_authent ok_as_delegate name_canonicalize 
+	Start Time: 11/20/2026 19:58:17 (local)
+	End Time:   11/21/2026 5:58:16 (local)
+	Renew Time: 11/27/2026 19:58:16 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0 
+	Kdc Called: DC01.lab.teboho.co.za
+
+#5>	Client: teboho @ LAB.TEBOHO.CO.ZA
+	Server: cifs/FS01 @ LAB.TEBOHO.CO.ZA
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a10000 -> forwardable renewable pre_authent name_canonicalize 
+	Start Time: 11/20/2026 19:58:17 (local)
+	End Time:   11/21/2026 5:58:16 (local)
+	Renew Time: 11/27/2026 19:58:16 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0 
+	Kdc Called: DC01.lab.teboho.co.za
+
+#6>	Client: teboho @ LAB.TEBOHO.CO.ZA
+	Server: LDAP/DC01.lab.teboho.co.za/lab.teboho.co.za @ LAB.TEBOHO.CO.ZA
+	KerbTicket Encryption Type: AES-256-CTS-HMAC-SHA1-96
+	Ticket Flags 0x40a50000 -> forwardable renewable pre_authent ok_as_delegate name_canonicalize 
+	Start Time: 11/20/2026 19:58:16 (local)
+	End Time:   11/21/2026 5:58:16 (local)
+	Renew Time: 11/27/2026 19:58:16 (local)
+	Session Key Type: AES-256-CTS-HMAC-SHA1-96
+	Cache Flags: 0 
+	Kdc Called: DC01.lab.teboho.co.za
+
+

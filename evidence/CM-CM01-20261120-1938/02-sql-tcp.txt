@@ -1,0 +1,14 @@
+﻿# 02-sql-tcp
+# Command: Test-NetConnection $fqdn -Port 1433 | Select ComputerName, RemotePort, TcpTestSucceeded | Format-List
+# Collected: 2026-11-20T19:39:00 on CM01
+
+
+
+ComputerName     : CM01.
+RemotePort       : 1433
+TcpTestSucceeded : True
+
+
+
+
+

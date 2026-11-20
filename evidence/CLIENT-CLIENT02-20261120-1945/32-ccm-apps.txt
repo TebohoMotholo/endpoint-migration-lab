@@ -1,0 +1,14 @@
+﻿# 32-ccm-apps
+# Command: Get-CimInstance -Namespace root\ccm\ClientSDK -ClassName CCM_Application | Select Name, InstallState, ApplicabilityState | Format-Table -AutoSize
+# Collected: 2026-11-20T19:46:10 on CLIENT02
+
+
+Name                           InstallState ApplicabilityState
+----                           ------------ ------------------
+Google Chrome                  Installed    Applicable        
+7-Zip 26.04 (x64 edition)      Installed    Applicable        
+7-Zip 26.04 (x64 edition)-copy Installed    Applicable        
+
+
+
+

@@ -1,0 +1,15 @@
+# 10-backup-jobs
+# Command: cat /etc/pve/jobs.cfg 2>/dev/null || cat /etc/pve/vzdump.cron
+# Collected: 2026-11-20T20:15:57+02:00 on pve
+
+vzdump: backup-42e5d3f4-13d6
+	schedule */30
+	all 1
+	compress zstd
+	enabled 0
+	fleecing 0
+	mode snapshot
+	notes-template {{guestname}}
+	notification-mode notification-system
+	storage ssd-backup
+

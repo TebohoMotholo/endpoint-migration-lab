@@ -1,0 +1,12 @@
+﻿# 13-boundaries
+# Command: InSite { Get-CMBoundary | Select DisplayName, BoundaryType, Value | Format-Table -AutoSize }
+# Collected: 2026-11-20T19:39:05 on CM01
+
+
+DisplayName BoundaryType Value                  
+----------- ------------ -----                  
+IP Range               3 10.10.10.1-10.10.10.254
+
+
+
+

@@ -1,0 +1,21 @@
+﻿# 11-site-roles
+# Command: InSite { Get-CMSiteRole | Select NetworkOSPath, RoleName | Sort NetworkOSPath | Format-Table -AutoSize }
+# Collected: 2026-11-20T19:39:02 on CM01
+
+
+NetworkOSPath           RoleName               
+-------------           --------               
+\\CM01.lab.teboho.co.za SMS Provider           
+\\CM01.lab.teboho.co.za SMS Management Point   
+\\CM01.lab.teboho.co.za SMS SRS Reporting Point
+\\CM01.lab.teboho.co.za SMS Notification Server
+\\CM01.lab.teboho.co.za SMS Dmp Connector      
+\\CM01.LAB.TEBOHO.CO.ZA SMS Component Server   
+\\CM01.lab.teboho.co.za SMS SQL Server         
+\\CM01.lab.teboho.co.za SMS Distribution Point 
+\\CM01.lab.teboho.co.za SMS Site System        
+\\CM01.lab.teboho.co.za SMS Site Server        
+
+
+
+

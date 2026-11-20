@@ -1,0 +1,7 @@
+﻿# 26-adsync-autoupgrade
+# Command: Get-ADSyncAutoUpgrade
+# Collected: 2026-11-20T19:28:20 on FS01
+
+Enabled
+
+

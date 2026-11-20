@@ -128,6 +128,43 @@ Real problems hit while building this lab. Each one is written as: what I saw, h
 
 **Check first next time.** Co-management workload ownership for any Intune policy that does not land on a co-managed device.
 
+**Status on 20 November 2026.** Still open. The evidence run shows "Cloud Kerberos enabled by policy: 0" and `NgcSet : NO`, so no PIN is provisioned on client02. The cloud TGT is issued and file shares open without a prompt, but Windows Hello itself is not set up yet. Next check: the Windows Hello profile assignment and its per-device status.
+
+---
+
+## 10. VLC Win32 app failed on every device
+
+**Symptom.** Intune showed VLC as Failed on all devices with "The system cannot find the file specified".
+
+**Diagnosis.** The same error on every device, including a fresh one, pointed at the package rather than the devices. The install command in the app's program settings did not match the file name inside the `.intunewin`.
+
+**Root cause.** Wrong install command.
+
+**Fix.** Corrected the install command. Devices pick up the change on the next retry cycle; `Restart-Service IntuneManagementExtension` and a sync from Company Portal speed that up. 7-Zip, packaged the right way first time, installed on both devices with an MSI product code detection rule.
+
+**Check first next time.** Run the exact install command by hand from the extracted package folder before uploading.
+
+---
+
+## 11. DC02 stopped replicating
+
+**Symptom.** `repadmin /replsummary` showed 5 of 5 failures from DC02 with error 1398, and `dcdiag` failed DFSREvent.
+
+**Diagnosis.** Error 1398 means the clocks differ. The largest delta was 7 h 03 m.
+
+**Root cause.** DC02's time zone and time source were never corrected after the AADSTS700027 time zone fix on the other servers.
+
+**Fix.** Set the time zone, point DC02 at the domain hierarchy, resync, then force replication:
+
+```powershell
+tzutil /s "South Africa Standard Time"
+w32tm /config /syncfromflags:domhier /update
+w32tm /resync /rediscover
+repadmin /syncall /AdeP
+```
+
+**Check first next time.** After any time fix, check every DC, not only the PDC emulator. Found by the evidence scripts, which is a good argument for running them on a schedule.
+
 ---
 
 ## Smaller ones
@@ -141,3 +178,5 @@ Real problems hit while building this lab. Each one is written as: what I saw, h
 | `IntuneWinAppUtil.exe.` not recognised | Trailing full stop, then the tool was not in the folder |
 | Client would not enroll in Intune | Signed in as an unsynced, unlicensed admin |
 | DC promotion blocked | Pending restart after rename |
+| Proxmox backups about to fail | Backup storage at 98.5%, 0 bytes free; retention too high for the disk |
+| `Get-ADSyncAADCompanyFeature` prompted for a user name in a script | Use `Get-ADSyncGlobalSettings` to read features without a sign-in |

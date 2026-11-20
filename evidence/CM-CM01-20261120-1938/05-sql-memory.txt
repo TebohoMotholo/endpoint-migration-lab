@@ -1,0 +1,10 @@
+﻿# 05-sql-memory
+# Command: sqlcmd -S $fqdn -E -W -Q "SET NOCOUNT ON; SELECT name, value_in_use FROM sys.configurations WHERE name IN ('max server memory (MB)','min server memory (MB)')"
+# Collected: 2026-11-20T19:39:02 on CM01
+
+name value_in_use
+---- ------------
+min server memory (MB) 16
+max server memory (MB) 2147483647
+
+

@@ -1,0 +1,10 @@
+﻿Evidence run: USER on CLIENT02 at 2026-11-20T20:00:17
+Run as: lab\teboho
+OK    01-whoami
+OK    02-klist-cloud
+OK    03-klist-tickets
+OK    04-dsregcmd-user
+OK    05-share-access
+OK    06-mapped-drives
+OK    07-known-folders
+

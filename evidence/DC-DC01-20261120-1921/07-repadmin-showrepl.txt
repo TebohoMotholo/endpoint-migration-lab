@@ -1,0 +1,116 @@
+﻿# 07-repadmin-showrepl
+# Command: repadmin /showrepl
+# Collected: 2026-11-20T19:21:20 on DC01
+
+
+
+Repadmin: running command /showrepl against full DC localhost
+
+Default-First-Site-Name\DC01
+
+DSA Options: IS_GC 
+
+Site Options: (none)
+
+DSA object GUID: <guid>
+
+DSA invocationID: <guid>
+
+
+
+==== INBOUND NEIGHBORS ======================================
+
+
+
+DC=lab,DC=teboho,DC=co,DC=za
+
+    Default-First-Site-Name\DC02 via RPC
+
+        DSA object GUID: <guid>
+
+        Last attempt @ 2026-11-20 19:10:05 failed, result 1398 (0x576):
+
+            There is a time and/or date difference between the client and server.
+
+        3 consecutive failure(s).
+
+        Last success @ 2026-11-20 12:18:19.
+
+
+
+CN=Configuration,DC=lab,DC=teboho,DC=co,DC=za
+
+    Default-First-Site-Name\DC02 via RPC
+
+        DSA object GUID: <guid>
+
+        Last attempt @ 2026-11-20 19:10:05 failed, result 1398 (0x576):
+
+            There is a time and/or date difference between the client and server.
+
+        3 consecutive failure(s).
+
+        Last success @ 2026-11-20 12:18:07.
+
+
+
+CN=Schema,CN=Configuration,DC=lab,DC=teboho,DC=co,DC=za
+
+    Default-First-Site-Name\DC02 via RPC
+
+        DSA object GUID: <guid>
+
+        Last attempt @ 2026-11-20 19:10:05 failed, result 1398 (0x576):
+
+            There is a time and/or date difference between the client and server.
+
+        3 consecutive failure(s).
+
+        Last success @ 2026-11-20 12:18:07.
+
+
+
+DC=DomainDnsZones,DC=lab,DC=teboho,DC=co,DC=za
+
+    Default-First-Site-Name\DC02 via RPC
+
+        DSA object GUID: <guid>
+
+        Last attempt @ 2026-11-20 19:10:05 failed, result 1256 (0x4e8):
+
+            The remote system is not available. For information about network troubleshooting, see Windows Help.
+
+        3 consecutive failure(s).
+
+        Last success @ 2026-11-20 12:18:40.
+
+
+
+DC=ForestDnsZones,DC=lab,DC=teboho,DC=co,DC=za
+
+    Default-First-Site-Name\DC02 via RPC
+
+        DSA object GUID: <guid>
+
+        Last attempt @ 2026-11-20 19:10:05 failed, result 1256 (0x4e8):
+
+            The remote system is not available. For information about network troubleshooting, see Windows Help.
+
+        3 consecutive failure(s).
+
+        Last success @ 2026-11-20 12:18:43.
+
+
+
+Source: Default-First-Site-Name\DC02
+
+******* 3 CONSECUTIVE FAILURES since 2026-11-20 12:18:43
+
+Last error: 1256 (0x4e8):
+
+            The remote system is not available. For information about network troubleshooting, see Windows Help.
+
+
+
+
+

@@ -1,0 +1,25 @@
+﻿# 27-sync-errors
+# Command: Get-ADSyncRunProfileResult -NumberRequested 10 | Where-Object Result -ne 'success' | Format-List
+# Collected: 2026-11-20T19:28:20 on FS01
+
+
+
+RunHistoryId      : <guid>
+ConnectorId       : <guid>
+ConnectorName     : teboholab.onmicrosoft.com - AAD
+RunProfileId      : <guid>
+RunProfileName    : Delta Import
+RunNumber         : 355
+Username          : NT SERVICE\ADSync
+IsRunComplete     : True
+Result            : stopped-server-down
+CurrentStepNumber : 1
+TotalSteps        : 1
+StartDate         : 11/20/2026 5:08:33 PM
+EndDate           : 11/20/2026 5:08:51 PM
+RunStepResults    : 
+
+
+
+
+

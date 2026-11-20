@@ -1,0 +1,20 @@
+﻿# 04-dsregcmd-user
+# Command: dsregcmd /status | Select-String -Pattern 'AzureAdPrt|CloudTgt|OnPremTgt|NgcSet|WorkplaceJoined|AzureAdJoined|DomainJoined|TenantName'
+# Collected: 2026-11-20T20:00:18 on CLIENT02
+
+
+             AzureAdJoined : YES
+              DomainJoined : YES
+                TenantName : Mozy IT
+                    NgcSet : NO
+           WorkplaceJoined : NO
+                AzureAdPrt : YES
+      AzureAdPrtUpdateTime : 2026-11-20 17:41:05.000 UTC
+      AzureAdPrtExpiryTime : 2026-12-04 17:41:26.000 UTC
+       AzureAdPrtAuthority : https://login.microsoftonline.com/<guid>
+                 OnPremTgt : YES
+                  CloudTgt : YES
+
+
+
+

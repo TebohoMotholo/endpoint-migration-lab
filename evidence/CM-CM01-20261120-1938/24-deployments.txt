@@ -1,0 +1,16 @@
+﻿# 24-deployments
+# Command: InSite { Get-CMApplicationDeployment | Select ApplicationName, CollectionName, @{n='Purpose';e={if($_.OfferTypeID -eq 0){'Required'}else{'Available'}}}, DeploymentTime | Format-Table -AutoSize }
+# Collected: 2026-11-20T19:39:16 on CM01
+
+
+ApplicationName                CollectionName   Purpose   DeploymentTime
+---------------                --------------   -------   --------------
+7-Zip 26.04 (x64 edition)      Lab Workstations Required                
+Google Chrome                  Pilot            Available               
+Google Chrome                  Lab Workstations Available               
+7-Zip 26.04 (x64 edition)      Pilot            Available               
+7-Zip 26.04 (x64 edition)-copy Pilot            Available               
+
+
+
+

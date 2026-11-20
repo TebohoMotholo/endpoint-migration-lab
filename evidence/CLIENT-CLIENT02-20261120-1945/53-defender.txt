@@ -1,0 +1,17 @@
+﻿# 53-defender
+# Command: Get-MpComputerStatus | Select AMRunningMode, AntivirusEnabled, RealTimeProtectionEnabled, AMProductVersion, AntivirusSignatureLastUpdated, IsTamperProtected | Format-List
+# Collected: 2026-11-20T19:46:17 on CLIENT02
+
+
+
+AMRunningMode                 : Normal
+AntivirusEnabled              : True
+RealTimeProtectionEnabled     : True
+AMProductVersion              : 4.18.26100.4
+AntivirusSignatureLastUpdated : 20/11/2026 11:37:17
+IsTamperProtected             : False
+
+
+
+
+

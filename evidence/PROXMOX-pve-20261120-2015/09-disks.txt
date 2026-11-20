@@ -1,0 +1,110 @@
+# 09-disks
+# Command: lsblk -o NAME,SIZE,MODEL,TRAN,TYPE,FSTYPE,MOUNTPOINT; echo; lvs; echo; df -h /
+# Collected: 2026-11-20T20:15:57+02:00 on pve
+
+NAME                             SIZE MODEL                     TRAN   TYPE FSTYPE      MOUNTPOINT
+sda                            238.5G SK hynix SC311 SATA 256GB sata   disk LVM2_member 
+├─ssd--vm-ssd--vm_tmeta          2.4G                                  lvm              
+│ └─ssd--vm-ssd--vm-tpool      233.6G                                  lvm              
+│   ├─ssd--vm-ssd--vm          233.6G                                  lvm              
+│   ├─ssd--vm-vm--120--disk--0    80G                                  lvm              
+│   ├─ssd--vm-vm--120--disk--1   100G                                  lvm              
+│   └─ssd--vm-vm--110--disk--0    64G                                  lvm              
+└─ssd--vm-ssd--vm_tdata        233.6G                                  lvm              
+  └─ssd--vm-ssd--vm-tpool      233.6G                                  lvm              
+    ├─ssd--vm-ssd--vm          233.6G                                  lvm              
+    ├─ssd--vm-vm--120--disk--0    80G                                  lvm              
+    ├─ssd--vm-vm--120--disk--1   100G                                  lvm              
+    └─ssd--vm-vm--110--disk--0    64G                                  lvm              
+sdb                            238.5G SK hynix SC311 SATA 256GB sata   disk             
+├─sdb1                          1007K                                  part             
+├─sdb2                             1G                                  part vfat        /boot/efi
+└─sdb3                         237.5G                                  part LVM2_member 
+  ├─pve-swap                       8G                                  lvm  swap        [SWAP]
+  ├─pve-root                    69.4G                                  lvm  ext4        /
+  ├─pve-data_tmeta               1.4G                                  lvm              
+  │ └─pve-data-tpool           141.2G                                  lvm              
+  │   ├─pve-data               141.2G                                  lvm              
+  │   ├─pve-vm--100--disk--0      16G                                  lvm              
+  │   ├─pve-vm--101--disk--1      60G                                  lvm              
+  │   ├─pve-vm--101--disk--0       4M                                  lvm              
+  │   ├─pve-vm--101--disk--2       4M                                  lvm              
+  │   ├─pve-vm--103--disk--1      50G                                  lvm              
+  │   ├─pve-vm--103--disk--0       4M                                  lvm              
+  │   ├─pve-vm--103--disk--2       4M                                  lvm              
+  │   ├─pve-vm--104--disk--1      60G                                  lvm              
+  │   ├─pve-vm--104--disk--3      40G                                  lvm              
+  │   ├─pve-vm--104--disk--0       4M                                  lvm              
+  │   ├─pve-vm--104--disk--2       4M                                  lvm              
+  │   ├─pve-vm--105--disk--0       8G                                  lvm  ext4        
+  │   ├─pve-vm--120--disk--0       4M                                  lvm              
+  │   ├─pve-vm--120--disk--1       4M                                  lvm              
+  │   ├─pve-vm--102--disk--1      64G                                  lvm              
+  │   ├─pve-vm--102--disk--0       4M                                  lvm              
+  │   ├─pve-vm--102--disk--2       4M                                  lvm              
+  │   ├─pve-vm--110--disk--0       4M                                  lvm              
+  │   └─pve-vm--110--disk--1       4M                                  lvm              
+  └─pve-data_tdata             141.2G                                  lvm              
+    └─pve-data-tpool           141.2G                                  lvm              
+      ├─pve-data               141.2G                                  lvm              
+      ├─pve-vm--100--disk--0      16G                                  lvm              
+      ├─pve-vm--101--disk--1      60G                                  lvm              
+      ├─pve-vm--101--disk--0       4M                                  lvm              
+      ├─pve-vm--101--disk--2       4M                                  lvm              
+      ├─pve-vm--103--disk--1      50G                                  lvm              
+      ├─pve-vm--103--disk--0       4M                                  lvm              
+      ├─pve-vm--103--disk--2       4M                                  lvm              
+      ├─pve-vm--104--disk--1      60G                                  lvm              
+      ├─pve-vm--104--disk--3      40G                                  lvm              
+      ├─pve-vm--104--disk--0       4M                                  lvm              
+      ├─pve-vm--104--disk--2       4M                                  lvm              
+      ├─pve-vm--105--disk--0       8G                                  lvm  ext4        
+      ├─pve-vm--120--disk--0       4M                                  lvm              
+      ├─pve-vm--120--disk--1       4M                                  lvm              
+      ├─pve-vm--102--disk--1      64G                                  lvm              
+      ├─pve-vm--102--disk--0       4M                                  lvm              
+      ├─pve-vm--102--disk--2       4M                                  lvm              
+      ├─pve-vm--110--disk--0       4M                                  lvm              
+      └─pve-vm--110--disk--1       4M                                  lvm              
+sdc                            223.6G Apacer AS340 240GB        usb    disk             
+└─sdc1                         223.6G                                  part ext4        /mnt/pve/ssd-backup
+
+  LV              VG     Attr       LSize    Pool   Origin          Data%  Meta%  Move Log Cpy%Sync Convert
+  base-900-disk-0 pve    Vri---tz-k    4.00m data                                                          
+  base-900-disk-1 pve    Vri---tz-k    4.00m data                                                          
+  data            pve    twi-aotz-- <141.23g                        64.67  3.18                            
+  root            pve    -wi-ao----  <69.37g                                                               
+  swap            pve    -wi-ao----    8.00g                                                               
+  vm-100-disk-0   pve    Vwi-aotz--   16.00g data                   14.40                                  
+  vm-101-disk-0   pve    Vwi-aotz--    4.00m data                   14.06                                  
+  vm-101-disk-1   pve    Vwi-aotz--   60.00g data                   38.39                                  
+  vm-101-disk-2   pve    Vwi-aotz--    4.00m data                   1.56                                   
+  vm-102-disk-0   pve    Vwi-aotz--    4.00m data                   14.06                                  
+  vm-102-disk-1   pve    Vwi-aotz--   64.00g data                   36.68                                  
+  vm-102-disk-2   pve    Vwi-aotz--    4.00m data                   1.56                                   
+  vm-103-disk-0   pve    Vwi-a-tz--    4.00m data                   14.06                                  
+  vm-103-disk-1   pve    Vwi-a-tz--   50.00g data                   28.26                                  
+  vm-103-disk-2   pve    Vwi-a-tz--    4.00m data                   1.56                                   
+  vm-104-disk-0   pve    Vwi-aotz--    4.00m data                   14.06                                  
+  vm-104-disk-1   pve    Vwi-aotz--   60.00g data                   45.13                                  
+  vm-104-disk-2   pve    Vwi-aotz--    4.00m data                   1.56                                   
+  vm-104-disk-3   pve    Vwi-aotz--   40.00g data                   0.76                                   
+  vm-105-disk-0   pve    Vwi-aotz--    8.00g data                   12.57                                  
+  vm-110-disk-0   pve    Vwi-aotz--    4.00m data   base-900-disk-0 14.06                                  
+  vm-110-disk-1   pve    Vwi-aotz--    4.00m data                   1.56                                   
+  vm-111-disk-0   pve    Vwi---tz--    4.00m data   base-900-disk-0                                        
+  vm-111-disk-1   pve    Vwi---tz--    4.00m data                                                          
+  vm-112-disk-0   pve    Vwi---tz--    4.00m data   base-900-disk-0                                        
+  vm-112-disk-1   pve    Vwi---tz--    4.00m data                                                          
+  vm-120-disk-0   pve    Vwi-aotz--    4.00m data                   14.06                                  
+  vm-120-disk-1   pve    Vwi-aotz--    4.00m data                   1.56                                   
+  base-900-disk-0 ssd-vm Vri---tz-k   64.00g ssd-vm                                                        
+  ssd-vm          ssd-vm twi-aotz--  233.58g                        66.09  2.95                            
+  vm-110-disk-0   ssd-vm Vwi-aotz--   64.00g ssd-vm base-900-disk-0 46.88                                  
+  vm-111-disk-0   ssd-vm Vwi---tz--   64.00g ssd-vm base-900-disk-0                                        
+  vm-112-disk-0   ssd-vm Vwi---tz--   64.00g ssd-vm base-900-disk-0                                        
+  vm-120-disk-0   ssd-vm Vwi-aotz--   80.00g ssd-vm                 64.81                                  
+  vm-120-disk-1   ssd-vm Vwi-aotz--  100.00g ssd-vm                 27.47                                  
+
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/pve-root   68G   22G   44G  33% /

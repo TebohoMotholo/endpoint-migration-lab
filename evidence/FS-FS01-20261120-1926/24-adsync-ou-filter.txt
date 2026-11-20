@@ -1,0 +1,21 @@
+﻿# 24-adsync-ou-filter
+# Command: (Get-ADSyncConnector | Where-Object Type -eq 'AD').Partitions | ForEach-Object { "Partition: $($_.Name)"; "Included:"; $_.ConnectorPartitionScope.ContainerInclusionList; "Excluded:"; $_.ConnectorPartitionScope.ContainerExclusionList }
+# Collected: 2026-11-20T19:28:18 on FS01
+
+Partition: lab.teboho.co.za
+Included:
+DC=lab,DC=teboho,DC=co,DC=za
+Excluded:
+CN=LostAndFound,DC=lab,DC=teboho,DC=co,DC=za
+CN=Managed Service Accounts,DC=lab,DC=teboho,DC=co,DC=za
+CN=Program Data,DC=lab,DC=teboho,DC=co,DC=za
+CN=System,DC=lab,DC=teboho,DC=co,DC=za
+CN=Users,DC=lab,DC=teboho,DC=co,DC=za
+CN=Infrastructure,DC=lab,DC=teboho,DC=co,DC=za
+CN=ForeignSecurityPrincipals,DC=lab,DC=teboho,DC=co,DC=za
+OU=Domain Controllers,DC=lab,DC=teboho,DC=co,DC=za
+CN=Computers,DC=lab,DC=teboho,DC=co,DC=za
+CN=Builtin,DC=lab,DC=teboho,DC=co,DC=za
+OU=Service Accounts,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za
+
+

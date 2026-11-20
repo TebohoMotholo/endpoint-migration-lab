@@ -1,0 +1,30 @@
+﻿Evidence run: DC on DC01 at 2026-11-20T19:21:14
+Run as: lab\administrator
+OK    01-forest
+OK    02-domain
+OK    03-domain-controllers
+OK    04-fsmo
+OK    05-dcdiag
+OK    06-repadmin-summary
+OK    07-repadmin-showrepl
+OK    08-shares
+OK    10-ou-tree
+OK    11-users.csv
+OK    12-groups.csv
+OK    13-computers.csv
+OK    14-redirected-computers
+OK    20-azureadkerberos
+OK    21-hybrid-join-scp
+OK    22-msol-account
+OK    23-system-management
+OK    30-dns-zones
+OK    31-dns-records
+OK    32-dns-forwarders
+OK    33-dhcp-scopes
+OK    34-dhcp-options
+OK    35-dhcp-leases
+OK    40-gpo-list.csv
+OK    41-gpo-links
+OK    43-gpo-retired-pilot
+OK    50-time
+

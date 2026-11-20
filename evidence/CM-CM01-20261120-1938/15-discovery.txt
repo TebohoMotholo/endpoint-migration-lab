@@ -1,0 +1,17 @@
+﻿# 15-discovery
+# Command: InSite { Get-CMDiscoveryMethod | Select ComponentName, SiteCode | Format-Table -AutoSize }
+# Collected: 2026-11-20T19:39:06 on CM01
+
+
+ComponentName                         SiteCode
+-------------                         --------
+SMS_AD_FOREST_DISCOVERY_MANAGER       LAB     
+SMS_AD_SECURITY_GROUP_DISCOVERY_AGENT LAB     
+SMS_AD_SYSTEM_DISCOVERY_AGENT         LAB     
+SMS_AD_USER_DISCOVERY_AGENT           LAB     
+SMS_NETWORK_DISCOVERY                 LAB     
+                                      LAB     
+
+
+
+

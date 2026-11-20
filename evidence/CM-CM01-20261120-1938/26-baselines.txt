@@ -1,0 +1,12 @@
+﻿# 26-baselines
+# Command: InSite { Get-CMBaseline -Fast | Select LocalizedDisplayName, IsDeployed, IsEnabled | Format-Table -AutoSize }
+# Collected: 2026-11-20T19:39:18 on CM01
+
+
+LocalizedDisplayName  IsDeployed IsEnabled
+--------------------  ---------- ---------
+Lab Security Baseline                 True
+
+
+
+

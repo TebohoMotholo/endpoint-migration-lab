@@ -1,0 +1,16 @@
+﻿# 06-mapped-drives
+# Command: Get-PSDrive -PSProvider FileSystem | Select Name, Root, DisplayRoot | Format-Table -AutoSize
+# Collected: 2026-11-20T20:00:21 on CLIENT02
+
+
+Name Root DisplayRoot   
+---- ---- -----------   
+C    C:\                
+D    D:\                
+E    E:\                
+F    F:\  \\FS01\Finance
+I    I:\  \\FS01\IT     
+
+
+
+

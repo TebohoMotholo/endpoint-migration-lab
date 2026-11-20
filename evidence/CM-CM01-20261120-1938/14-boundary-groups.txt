@@ -1,0 +1,12 @@
+﻿# 14-boundary-groups
+# Command: InSite { Get-CMBoundaryGroup | Select Name, MemberCount, SiteSystemCount, DefaultSiteCode | Format-Table -AutoSize }
+# Collected: 2026-11-20T19:39:05 on CM01
+
+
+Name    MemberCount SiteSystemCount DefaultSiteCode
+----    ----------- --------------- ---------------
+Lab LAN           1               1 LAB            
+
+
+
+

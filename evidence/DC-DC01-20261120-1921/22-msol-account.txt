@@ -1,0 +1,12 @@
+﻿# 22-msol-account
+# Command: Get-ADUser -Filter "Name -like 'MSOL_*'" | Select Name, Enabled | Format-Table
+# Collected: 2026-11-20T19:21:22 on DC01
+
+
+Name              Enabled
+----              -------
+MSOL_7e0850cd89f3    True
+
+
+
+

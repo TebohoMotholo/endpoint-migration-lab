@@ -1,0 +1,33 @@
+# 08-storage
+# Command: pvesm status; echo; cat /etc/pve/storage.cfg
+# Collected: 2026-11-20T20:15:56+02:00 on pve
+
+Name              Type     Status     Total (KiB)      Used (KiB) Available (KiB)        %
+local              dir     active        71017632        22082124        45282288   31.09%
+local-lvm      lvmthin     active       148086784        95767723        52319060   64.67%
+ssd-backup         dir     active       229640080       226314740               0   98.55%
+ssd-vm         lvmthin     active       244928512       161873253        83055258   66.09%
+
+dir: local
+	path /var/lib/vz
+	content import,backup,vztmpl,iso
+
+lvmthin: local-lvm
+	thinpool data
+	vgname pve
+	content rootdir,images
+
+lvmthin: ssd-vm
+	thinpool ssd-vm
+	vgname ssd-vm
+	content rootdir,images
+	nodes pve
+
+dir: ssd-backup
+	path /mnt/pve/ssd-backup
+	content backup,import,snippets,vztmpl,images,iso,rootdir
+	is_mountpoint yes
+	nodes pve
+	prune-backups keep-last=2,keep-weekly=2
+	shared 0
+

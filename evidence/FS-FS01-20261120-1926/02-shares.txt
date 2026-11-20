@@ -1,0 +1,21 @@
+﻿# 02-shares
+# Command: Get-SmbShare | Select Name, Path, FolderEnumerationMode, Description | Format-Table -AutoSize
+# Collected: 2026-11-20T19:26:15 on FS01
+
+
+Name      Path               FolderEnumerationMode Description  
+----      ----               --------------------- -----------  
+ADMIN$    C:\WINDOWS                  Unrestricted Remote Admin 
+C$        C:\                         Unrestricted Default share
+F$        F:\                         Unrestricted Default share
+Finance   F:\Shares\Finance            AccessBased              
+Home      F:\Shares\Home               AccessBased              
+HR        F:\Shares\HR                 AccessBased              
+IPC$                                  Unrestricted Remote IPC   
+IT        F:\Shares\IT                 AccessBased              
+Shared    F:\Shares\Shared             AccessBased              
+Software$ F:\Shares\Software          Unrestricted              
+
+
+
+

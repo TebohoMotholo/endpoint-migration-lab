@@ -1,0 +1,8 @@
+﻿# 07-known-folders
+# Command: [Environment]::GetFolderPath('MyDocuments'); [Environment]::GetFolderPath('Desktop')
+# Collected: 2026-11-20T20:00:21 on CLIENT02
+
+\\FS01\Home\teboho\Documents
+\\FS01\Home\teboho\Desktop
+
+

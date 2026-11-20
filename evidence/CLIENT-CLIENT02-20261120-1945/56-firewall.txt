@@ -1,0 +1,14 @@
+﻿# 56-firewall
+# Command: Get-NetFirewallProfile | Select Name, Enabled, DefaultInboundAction, DefaultOutboundAction | Format-Table -AutoSize
+# Collected: 2026-11-20T19:46:26 on CLIENT02
+
+
+Name    Enabled DefaultInboundAction DefaultOutboundAction
+----    ------- -------------------- ---------------------
+Domain     True        NotConfigured         NotConfigured
+Private    True        NotConfigured         NotConfigured
+Public     True        NotConfigured         NotConfigured
+
+
+
+

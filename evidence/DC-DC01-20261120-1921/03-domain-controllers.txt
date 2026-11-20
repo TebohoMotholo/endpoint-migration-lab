@@ -1,0 +1,13 @@
+﻿# 03-domain-controllers
+# Command: Get-ADDomainController -Filter * | Select Name, IPv4Address, IsGlobalCatalog, OperatingSystem, Site | Format-Table -AutoSize
+# Collected: 2026-11-20T19:21:19 on DC01
+
+
+Name IPv4Address IsGlobalCatalog OperatingSystem                         Site                   
+---- ----------- --------------- ---------------                         ----                   
+DC01 10.10.10.10            True Windows Server 2025 Standard Evaluation Default-First-Site-Name
+DC02 10.10.10.11            True Windows Server 2025 Standard Evaluation Default-First-Site-Name
+
+
+
+

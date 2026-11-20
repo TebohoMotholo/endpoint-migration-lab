@@ -1,0 +1,11 @@
+﻿"Name","OperatingSystem","IPv4Address","LastLogonDate","DistinguishedName"
+"DC01","Windows Server 2025 Standard Evaluation","10.10.10.10","11/20/2026 10:42:29 AM","CN=DC01,OU=Domain Controllers,DC=lab,DC=teboho,DC=co,DC=za"
+"DESKTOP01_IT","Windows 11 Business","10.10.10.100","11/20/2026 11:43:24 AM","CN=DESKTOP01_IT,OU=Computers,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za"
+"DC02","Windows Server 2025 Standard Evaluation","10.10.10.11","11/20/2026 10:42:22 AM","CN=DC02,OU=Domain Controllers,DC=lab,DC=teboho,DC=co,DC=za"
+"FS01","Windows Server 2025 Standard Evaluation","10.10.10.20","11/20/2026 10:42:32 AM","CN=FS01,OU=Servers,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za"
+"CLIENT02","Windows 11 Business","10.10.10.101","11/20/2026 11:59:15 AM","CN=CLIENT02,OU=Computers,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za"
+"CLIENT03","Windows 11 Pro","10.10.10.102","11/7/2026 6:42:50 PM","CN=CLIENT03,OU=Computers,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za"
+"CM01","Windows Server 2025 Standard Evaluation","10.10.10.40","11/20/2026 10:59:46 AM","CN=CM01,OU=Computers,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za"
+"AZUREADSSOACC",,,,"CN=AZUREADSSOACC,OU=Computers,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za"
+"AzureADKerberos",,,,"CN=AzureADKerberos,OU=Domain Controllers,DC=lab,DC=teboho,DC=co,DC=za"
+

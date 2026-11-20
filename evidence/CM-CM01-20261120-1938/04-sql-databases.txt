@@ -1,0 +1,15 @@
+﻿# 04-sql-databases
+# Command: sqlcmd -S $fqdn -E -W -Q "SET NOCOUNT ON; SELECT name, collation_name FROM sys.databases"
+# Collected: 2026-11-20T19:39:02 on CM01
+
+name collation_name
+---- --------------
+master SQL_Latin1_General_CP1_CI_AS
+tempdb SQL_Latin1_General_CP1_CI_AS
+model SQL_Latin1_General_CP1_CI_AS
+msdb SQL_Latin1_General_CP1_CI_AS
+CM_LAB SQL_Latin1_General_CP1_CI_AS
+ReportServer Latin1_General_100_CI_AS_KS_WS
+ReportServerTempDB Latin1_General_100_CI_AS_KS_WS
+
+

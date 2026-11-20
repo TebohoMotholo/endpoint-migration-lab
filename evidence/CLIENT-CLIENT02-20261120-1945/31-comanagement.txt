@@ -1,0 +1,66 @@
+﻿# 31-comanagement
+# Command: Get-Content "C:\Windows\CCM\Logs\CoManagementHandler.log" -Tail 60 -ErrorAction Stop
+# Collected: 2026-11-20T19:46:09 on CLIENT02
+
+<![LOG[MEM authority detected in CSP.]LOG]!><time="12:01:32.866-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3780" file="mdmreglib.cpp:270">
+<![LOG[Device is provisioned]LOG]!><time="12:01:32.882-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3780" file="mdmreglib.cpp:708">
+<![LOG[Last state message is expired, resending up report for state 100.]LOG]!><time="12:01:32.884-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3780" file="comgmtagent.cpp:1962">
+<![LOG[Report detail: <ClientCoManagementMessage><MDMEnrollment><Enrolled Value="1" /><Provisioned Value="1" /><ServiceUri Value="https://enrollment.manage.microsoft.com/enrollmentserver/discovery.svc" /><RegistrationKind Value="6" /><ScheduledEnrollTime Value="" /><ErrorCode Value="0" /><ErrorDetail Value="" /><EnrollmentRequestType Value="0" /></MDMEnrollment><CoMgmtPolicy><Enabled Value="1" /><PolicyReceived Value="1" /><WorkloadFlags Value="12543" /></CoMgmtPolicy></ClientCoManagementMessage>]LOG]!><time="12:01:32.884-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3780" file="comgmtagent.cpp:1970">
+<![LOG[Processing GET for assignment (ScopeId_<guid>/ConfigurationPolicy_<guid> : 2)]LOG]!><time="12:01:41.601-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="handler.cpp:73">
+<![LOG[Getting/Merging value for setting 'CoManagementSettings_AutoEnroll']LOG]!><time="12:01:41.601-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="handler.cpp:166">
+<![LOG[Merged value for setting 'CoManagementSettings_AutoEnroll' is 'true']LOG]!><time="12:01:41.605-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="handler.cpp:218">
+<![LOG[Getting/Merging value for setting 'CoManagementSettings_Capabilities']LOG]!><time="12:01:41.607-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="handler.cpp:166">
+<![LOG[Merging workload flags 8197 with 12543]LOG]!><time="12:01:41.607-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="handler.cpp:196">
+<![LOG[Merged value for setting 'CoManagementSettings_Capabilities' is '12543']LOG]!><time="12:01:41.607-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="handler.cpp:218">
+<![LOG[New merged workloadflags value with co-management max capabilities '16383' is '12543']LOG]!><time="12:01:41.607-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="handler.cpp:234">
+<![LOG[Getting/Merging value for setting 'CoManagementSettings_Allow']LOG]!><time="12:01:41.607-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="handler.cpp:166">
+<![LOG[Merged value for setting 'CoManagementSettings_Allow' is 'true']LOG]!><time="12:01:41.609-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="handler.cpp:218">
+<![LOG[MEM authority detected in CSP.]LOG]!><time="12:01:41.611-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="mdmreglib.cpp:270">
+<![LOG[Machine is already enrolled with MDM]LOG]!><time="12:01:41.635-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="handler.cpp:396">
+<![LOG[MEM authority detected in CSP.]LOG]!><time="12:01:41.637-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="mdmreglib.cpp:270">
+<![LOG[Device is provisioned]LOG]!><time="12:01:41.646-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="mdmreglib.cpp:708">
+<![LOG[State ID and report detail hash are not changed. No need to resend.]LOG]!><time="12:01:41.646-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3348" file="comgmtagent.cpp:2002">
+<![LOG[Processing GET for assignment (ScopeId_<guid>/ConfigurationPolicy_<guid> : 3)]LOG]!><time="12:01:41.704-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="handler.cpp:73">
+<![LOG[Getting/Merging value for setting 'CoManagementSettings_AutoEnroll']LOG]!><time="12:01:41.704-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="handler.cpp:166">
+<![LOG[Merged value for setting 'CoManagementSettings_AutoEnroll' is 'true']LOG]!><time="12:01:41.706-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="handler.cpp:218">
+<![LOG[Getting/Merging value for setting 'CoManagementSettings_Capabilities']LOG]!><time="12:01:41.706-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="handler.cpp:166">
+<![LOG[Merging workload flags 12543 with 8197]LOG]!><time="12:01:41.708-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="handler.cpp:196">
+<![LOG[Merged value for setting 'CoManagementSettings_Capabilities' is '12543']LOG]!><time="12:01:41.708-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="handler.cpp:218">
+<![LOG[New merged workloadflags value with co-management max capabilities '16383' is '12543']LOG]!><time="12:01:41.708-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="handler.cpp:234">
+<![LOG[Getting/Merging value for setting 'CoManagementSettings_Allow']LOG]!><time="12:01:41.708-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="handler.cpp:166">
+<![LOG[Merged value for setting 'CoManagementSettings_Allow' is 'true']LOG]!><time="12:01:41.710-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="handler.cpp:218">
+<![LOG[MEM authority detected in CSP.]LOG]!><time="12:01:41.714-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="mdmreglib.cpp:270">
+<![LOG[Machine is already enrolled with MDM]LOG]!><time="12:01:41.736-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="handler.cpp:396">
+<![LOG[MEM authority detected in CSP.]LOG]!><time="12:01:41.738-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="mdmreglib.cpp:270">
+<![LOG[Device is provisioned]LOG]!><time="12:01:41.746-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="mdmreglib.cpp:708">
+<![LOG[State ID and report detail hash are not changed. No need to resend.]LOG]!><time="12:01:41.748-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4320" file="comgmtagent.cpp:2002">
+<![LOG[Device is provisioned]LOG]!><time="12:03:34.488-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="6556" file="mdmreglib.cpp:708">
+<![LOG[Send Comanagement Report after AAD Join if MDM Enrolled]LOG]!><time="12:03:34.490-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="6556" file="comgmtagent.cpp:189">
+<![LOG[MEM authority detected in CSP.]LOG]!><time="12:03:34.492-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="6556" file="mdmreglib.cpp:270">
+<![LOG[Device is provisioned]LOG]!><time="12:03:34.504-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="6556" file="mdmreglib.cpp:708">
+<![LOG[Report detail: <ClientCoManagementMessage><MDMEnrollment><Enrolled Value="1" /><Provisioned Value="1" /><ServiceUri Value="https://enrollment.manage.microsoft.com/enrollmentserver/discovery.svc" /><RegistrationKind Value="6" /><ScheduledEnrollTime Value="" /><ErrorCode Value="0" /><ErrorDetail Value="" /><EnrollmentRequestType Value="0" /></MDMEnrollment><CoMgmtPolicy><Enabled Value="1" /><PolicyReceived Value="1" /><WorkloadFlags Value="12543" /></CoMgmtPolicy></ClientCoManagementMessage>]LOG]!><time="12:03:34.504-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="6556" file="comgmtagent.cpp:1970">
+<![LOG[Initializing co-management agent...]LOG]!><time="19:09:24.737-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="comgmtagent.cpp:305">
+<![LOG[Loaded EnrollPending=0, UseRandomization=1, LogonRetriesCount=0, ScheduledTime=0, ErrorCode=0x0, ExpectedWorkloadFlags=12543, LastState=107, EnrollmentRequestType=0]LOG]!><time="19:09:25.398-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="comgmtagent.cpp:335">
+<![LOG[Auto enrollment agent is initialized.]LOG]!><time="19:09:26.008-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="comgmtagent.cpp:391">
+<![LOG[Discovery Data already sent on AAD Join]LOG]!><time="19:09:26.062-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="comgmtagent.cpp:632">
+<![LOG[Device is enrolled.]LOG]!><time="19:09:26.100-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="comgmtagent.cpp:685">
+<![LOG[MEM authority detected in CSP.]LOG]!><time="19:09:26.153-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="mdmreglib.cpp:270">
+<![LOG[MEM authority detected in CSP.]LOG]!><time="19:09:26.330-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="mdmreglib.cpp:270">
+<![LOG[Updating comanagement registry key to 0x30ff]LOG]!><time="19:09:26.332-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="ccmcomgmt.cpp:434">
+<![LOG[CoManagement flags registry key updated.]LOG]!><time="19:09:26.332-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="ccmcomgmt.cpp:439">
+<![LOG[Setting co-management RS3 flags]LOG]!><time="19:09:26.373-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="ccmcomgmt.cpp:482">
+<![LOG[MEM authority detected in CSP.]LOG]!><time="19:09:26.438-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="mdmreglib.cpp:270">
+<![LOG[Device is provisioned]LOG]!><time="19:09:26.478-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="mdmreglib.cpp:708">
+<![LOG[State ID and report detail hash are not changed. No need to resend.]LOG]!><time="19:09:26.484-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="4664" file="comgmtagent.cpp:2002">
+<![LOG[Device is provisioned]LOG]!><time="19:11:33.926-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3856" file="mdmreglib.cpp:708">
+<![LOG[Send Comanagement Report after AAD Join if MDM Enrolled]LOG]!><time="19:11:33.936-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3856" file="comgmtagent.cpp:189">
+<![LOG[MEM authority detected in CSP.]LOG]!><time="19:11:33.941-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3856" file="mdmreglib.cpp:270">
+<![LOG[Device is provisioned]LOG]!><time="19:11:33.941-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="5324" file="mdmreglib.cpp:708">
+<![LOG[Send Comanagement Report after AAD Join if MDM Enrolled]LOG]!><time="19:11:33.943-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="5324" file="comgmtagent.cpp:189">
+<![LOG[MEM authority detected in CSP.]LOG]!><time="19:11:33.949-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="5324" file="mdmreglib.cpp:270">
+<![LOG[Device is provisioned]LOG]!><time="19:11:33.956-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3856" file="mdmreglib.cpp:708">
+<![LOG[State ID and report detail hash are not changed. No need to resend.]LOG]!><time="19:11:33.956-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="3856" file="comgmtagent.cpp:2002">
+<![LOG[Device is provisioned]LOG]!><time="19:11:33.960-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="5324" file="mdmreglib.cpp:708">
+<![LOG[State ID and report detail hash are not changed. No need to resend.]LOG]!><time="19:11:33.960-120" date="11-20-2026" component="CoManagementHandler" context="" type="1" thread="5324" file="comgmtagent.cpp:2002">
+
+

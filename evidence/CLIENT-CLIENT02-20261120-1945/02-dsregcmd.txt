@@ -1,0 +1,118 @@
+﻿# 02-dsregcmd
+# Command: dsregcmd /status
+# Collected: 2026-11-20T19:45:39 on CLIENT02
+
+
++----------------------------------------------------------------------+
+| Device State                                                         |
++----------------------------------------------------------------------+
+
+             AzureAdJoined : YES
+          EnterpriseJoined : NO
+              DomainJoined : YES
+                DomainName : LAB
+           Virtual Desktop : NOT SET
+               Device Name : client02.lab.teboho.co.za
+
++----------------------------------------------------------------------+
+| Device Details                                                       |
++----------------------------------------------------------------------+
+
+                  DeviceId : <guid>
+                Thumbprint : 0786A02F5057E756D2D4BC0C48FAE05BEE0F4942
+ DeviceCertificateValidity : [ 2026-10-24 06:06:57.000 UTC -- 2036-10-24 06:36:57.000 UTC ]
+            KeyContainerId : <guid>
+               KeyProvider : Microsoft Platform Crypto Provider
+              TpmProtected : YES
+          DeviceAuthStatus : SUCCESS
+
++----------------------------------------------------------------------+
+| Tenant Details                                                       |
++----------------------------------------------------------------------+
+
+                TenantName : Mozy IT
+                  TenantId : <guid>
+               AuthCodeUrl : https://login.microsoftonline.com/<guid>/oauth2/authorize
+            AccessTokenUrl : https://login.microsoftonline.com/<guid>/oauth2/token
+                    MdmUrl : https://enrollment.manage.microsoft.com/enrollmentserver/discovery.svc
+                 MdmTouUrl : https://portal.manage.microsoft.com/TermsofUse.aspx
+          MdmComplianceUrl : https://portal.manage.microsoft.com/?portalAction=Compliance
+               SettingsUrl : 
+            JoinSrvVersion : 3.0
+                JoinSrvUrl : https://enterpriseregistration.windows.net/EnrollmentServer/device/
+                 JoinSrvId : urn:ms-drs:enterpriseregistration.windows.net
+             KeySrvVersion : 1.0
+                 KeySrvUrl : https://enterpriseregistration.windows.net/EnrollmentServer/key/
+                  KeySrvId : urn:ms-drs:enterpriseregistration.windows.net
+        WebAuthNSrvVersion : 1.0
+            WebAuthNSrvUrl : https://enterpriseregistration.windows.net/webauthn/<guid>/
+             WebAuthNSrvId : urn:ms-drs:enterpriseregistration.windows.net
+    DeviceManagementSrvVer : 1.0
+    DeviceManagementSrvUrl : https://enterpriseregistration.windows.net/manage/<guid>/
+     DeviceManagementSrvId : urn:ms-drs:enterpriseregistration.windows.net
+                   KerbSpn : adrs/enterpriseregistration.windows.net
+                   KerbUrl : https://login.microsoftonline.com/<guid>/kerberos
+     JoinResourceSrvTlsUrl : https://certauth.enterpriseregistration.windows.net/EnrollmentServer/device/resource/<guid>/
+
++----------------------------------------------------------------------+
+| User State                                                           |
++----------------------------------------------------------------------+
+
+                    NgcSet : NO
+           WorkplaceJoined : NO
+             WamDefaultSet : ERROR (0x80070520)
+
++----------------------------------------------------------------------+
+| SSO State                                                            |
++----------------------------------------------------------------------+
+
+                AzureAdPrt : NO
+       AzureAdPrtAuthority : 
+             EnterprisePrt : NO
+    EnterprisePrtAuthority : 
+
++----------------------------------------------------------------------+
+| Diagnostic Data                                                      |
++----------------------------------------------------------------------+
+
+        AadRecoveryEnabled : NO
+    Executing Account Name : LAB\Administrator, Administrator@lab.teboho.co.za
+               KeySignTest : PASSED
+
+        DisplayNameUpdated : Managed by MDM
+          OsVersionUpdated : Managed by MDM
+           HostNameUpdated : YES
+
+      Last HostName Update : NONE
+
++----------------------------------------------------------------------+
+| IE Proxy Config for Current User                                     |
++----------------------------------------------------------------------+
+
+      Auto Detect Settings : YES
+    Auto-Configuration URL : 
+         Proxy Server List : 
+         Proxy Bypass List : 
+
++----------------------------------------------------------------------+
+| WinHttp Default Proxy Config                                         |
++----------------------------------------------------------------------+
+
+               Access Type : DIRECT
+
++----------------------------------------------------------------------+
+| Ngc Prerequisite Check                                               |
++----------------------------------------------------------------------+
+
+            IsDeviceJoined : YES
+             IsUserAzureAD : NO
+             PolicyEnabled : NO
+          PostLogonEnabled : YES
+            DeviceEligible : YES
+        SessionIsNotRemote : YES
+            CertEnrollment : none
+              PreReqResult : WillNotProvision
+
+For more information, please visit https://www.microsoft.com/aadjerrors
+
+

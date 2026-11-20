@@ -1,0 +1,16 @@
+﻿# 50-local-admins
+# Command: Get-LocalGroupMember -Group Administrators | Select Name, PrincipalSource, ObjectClass | Format-Table -AutoSize
+# Collected: 2026-11-20T19:46:15 on CLIENT02
+
+
+Name                                                PrincipalSource ObjectClass
+----                                                --------------- -----------
+CLIENT02\Administrator                                        Local User       
+CLIENT02\labsdmin                                             Local User       
+CLIENT02\ladadmin                                             Local User       
+LAB\Domain Admins                                   ActiveDirectory Group      
+S-1-12-1-<sid>         AzureAD Other      
+
+
+
+

@@ -1,0 +1,21 @@
+﻿# 58-epm
+# Command: Get-Service -Name "EPMAgent*","Microsoft EPM*" -ErrorAction SilentlyContinue | Select Name, Status; Get-ChildItem "C:\Program Files\Microsoft EPM Agent" -ErrorAction SilentlyContinue | Select Name
+# Collected: 2026-11-20T19:46:32 on CLIENT02
+
+
+Name             
+----             
+EPMAdapter       
+EPMClient        
+EpmConsentUI     
+EPMDriver        
+EpmElevate       
+EPMService       
+EPMShellExtension
+EpmTools         
+Logs             
+Policies         
+
+
+
+

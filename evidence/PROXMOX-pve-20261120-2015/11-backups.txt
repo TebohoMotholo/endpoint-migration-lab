@@ -1,0 +1,4 @@
+# 11-backups
+# Command: ls -lh /mnt/pve/hdd-backup/dump 2>/dev/null | tail -40
+# Collected: 2026-11-20T20:15:57+02:00 on pve
+

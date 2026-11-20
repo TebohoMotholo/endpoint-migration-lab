@@ -1,0 +1,27 @@
+﻿Evidence run: CLIENT on CLIENT02 at 2026-11-20T19:45:33
+Run as: lab\administrator
+OK    01-system
+OK    02-dsregcmd
+OK    03-network
+OK    04-time
+OK    10-gpresult
+OK    20-mdm-enrollments
+OK    21-policy-manager
+OK    22-update-policy
+OK    23-whfb-policy
+OK    24-ime-apps
+OK    30-ccm-client
+OK    31-comanagement
+OK    32-ccm-apps
+OK    40-installed-software.csv
+OK    50-local-admins
+OK    51-bitlocker
+OK    52-bitlocker-protectors
+OK    53-defender
+OK    54-mde-onboarding
+OK    55-asr-rules
+OK    56-firewall
+OK    57-laps
+OK    58-epm
+OK    59-secure-boot
+

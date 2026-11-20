@@ -1,0 +1,9 @@
+﻿# 41-gpo-links
+# Command: Get-ADOrganizationalUnit -Filter * | ForEach-Object { $l = (Get-GPInheritance -Target $_.DistinguishedName).GpoLinks; if ($l) { "$($_.Name): " + (($l | Select -Expand DisplayName) -join ', ') } }
+# Collected: 2026-11-20T19:21:35 on DC01
+
+Domain Controllers: Default Domain Controllers Policy
+Users: Map Drives, Folder Redirection, Wallpaper, Intranet Shortcut, Local Admins
+Computers: Lock Screen Timeout, Block USS, Firewall Baseline, Logon Banner, ConfigMgr Client Prere
+
+

@@ -1,0 +1,13 @@
+﻿# 04-fsmo
+# Command: netdom query fsmo
+# Collected: 2026-11-20T19:21:19 on DC01
+
+Schema master               DC01.lab.teboho.co.za
+Domain naming master        DC01.lab.teboho.co.za
+PDC                         DC01.lab.teboho.co.za
+RID pool manager            DC01.lab.teboho.co.za
+Infrastructure master       DC01.lab.teboho.co.za
+The command completed successfully.
+
+
+

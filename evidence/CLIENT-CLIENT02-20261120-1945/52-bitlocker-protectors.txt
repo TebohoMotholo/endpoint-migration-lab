@@ -1,0 +1,6 @@
+﻿# 52-bitlocker-protectors
+# Command: (Get-BitLockerVolume -MountPoint C:).KeyProtector | Select KeyProtectorType | Format-Table
+# Collected: 2026-11-20T19:46:16 on CLIENT02
+
+
+

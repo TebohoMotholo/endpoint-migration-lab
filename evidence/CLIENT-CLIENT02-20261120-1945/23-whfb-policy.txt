@@ -1,0 +1,6 @@
+﻿# 23-whfb-policy
+# Command: Get-ChildItem "HKLM:\SOFTWARE\Microsoft\Policies\PassportForWork" -Recurse -ErrorAction SilentlyContinue | Get-ItemProperty | Select PSPath, Enabled, UsePassportForWork, UseCloudTrustForOnPremAuth | Format-List
+# Collected: 2026-11-20T19:45:44 on CLIENT02
+
+
+

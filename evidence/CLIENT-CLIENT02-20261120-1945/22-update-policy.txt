@@ -1,0 +1,76 @@
+﻿# 22-update-policy
+# Command: Get-ItemProperty HKLM:\SOFTWARE\Microsoft\PolicyManager\current\device\Update -ErrorAction Stop | Format-List
+# Collected: 2026-11-20T19:45:44 on CLIENT02
+
+
+
+AllowRebootlessUpdates                                : 1
+AllowRebootlessUpdates_ProviderSet                    : 1
+AllowRebootlessUpdates_WinningProvider                : <guid>
+DriverUpdateEnrolled                                  : 0
+DriverUpdateEnrolled_ProviderSet                      : 1
+DriverUpdateEnrolled_WinningProvider                  : <guid>
+FeatureUpdateEnrolled                                 : 0
+FeatureUpdateEnrolled_ProviderSet                     : 1
+FeatureUpdateEnrolled_WinningProvider                 : <guid>
+QualityUpdateEnrolled                                 : 0
+QualityUpdateEnrolled_ProviderSet                     : 1
+QualityUpdateEnrolled_WinningProvider                 : <guid>
+QuickMachineRecoveryEnrolled                          : 0
+QuickMachineRecoveryEnrolled_ProviderSet              : 1
+QuickMachineRecoveryEnrolled_WinningProvider          : <guid>
+AllowAutoUpdate                                       : 6
+AllowAutoUpdate_ProviderSet                           : 1
+AllowAutoUpdate_WinningProvider                       : <guid>
+AllowMUUpdateService                                  : 1
+AllowMUUpdateService_ProviderSet                      : 1
+AllowMUUpdateService_WinningProvider                  : <guid>
+ExcludeWUDriversInQualityUpdate                       : 0
+ExcludeWUDriversInQualityUpdate_ProviderSet           : 1
+ExcludeWUDriversInQualityUpdate_WinningProvider       : <guid>
+DeferQualityUpdatesPeriodInDays                       : 0
+DeferQualityUpdatesPeriodInDays_ProviderSet           : 1
+DeferQualityUpdatesPeriodInDays_WinningProvider       : <guid>
+PauseQualityUpdates                                   : 0
+PauseQualityUpdates_ProviderSet                       : 1
+PauseQualityUpdates_WinningProvider                   : <guid>
+PauseFeatureUpdates                                   : 0
+PauseFeatureUpdates_ProviderSet                       : 1
+PauseFeatureUpdates_WinningProvider                   : <guid>
+SetEDURestart                                         : 0
+SetEDURestart_ProviderSet                             : 1
+SetEDURestart_WinningProvider                         : <guid>
+ConfigureFeatureUpdateUninstallPeriod                 : 30
+ConfigureFeatureUpdateUninstallPeriod_ProviderSet     : 1
+ConfigureFeatureUpdateUninstallPeriod_WinningProvider : <guid>
+DeferFeatureUpdatesPeriodInDays                       : 0
+DeferFeatureUpdatesPeriodInDays_ProviderSet           : 1
+DeferFeatureUpdatesPeriodInDays_WinningProvider       : <guid>
+SetDisablePauseUXAccess                               : 1
+SetDisablePauseUXAccess_ProviderSet                   : 1
+SetDisablePauseUXAccess_WinningProvider               : <guid>
+ConfigureDeadlineForFeatureUpdates                    : 1
+ConfigureDeadlineForFeatureUpdates_ProviderSet        : 1
+ConfigureDeadlineForFeatureUpdates_WinningProvider    : <guid>
+ConfigureDeadlineForQualityUpdates                    : 1
+ConfigureDeadlineForQualityUpdates_ProviderSet        : 1
+ConfigureDeadlineForQualityUpdates_WinningProvider    : <guid>
+ConfigureDeadlineGracePeriod                          : 0
+ConfigureDeadlineGracePeriod_ProviderSet              : 1
+ConfigureDeadlineGracePeriod_WinningProvider          : <guid>
+ConfigureDeadlineNoAutoReboot                         : 0
+ConfigureDeadlineNoAutoReboot_ProviderSet             : 1
+ConfigureDeadlineNoAutoReboot_WinningProvider         : <guid>
+UpdateNotificationLevel                               : 0
+UpdateNotificationLevel_ProviderSet                   : 1
+UpdateNotificationLevel_WinningProvider               : <guid>
+PSPath                                                : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\Update
+PSParentPath                                          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device
+PSChildName                                           : Update
+PSDrive                                               : HKLM
+PSProvider                                            : Microsoft.PowerShell.Core\Registry
+
+
+
+
+

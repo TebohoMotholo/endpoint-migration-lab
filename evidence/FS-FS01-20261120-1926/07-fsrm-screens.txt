@@ -1,0 +1,12 @@
+﻿# 07-fsrm-screens
+# Command: Get-FsrmFileScreen | Select Path, Active, IncludeGroup | Format-Table -AutoSize
+# Collected: 2026-11-20T19:26:21 on FS01
+
+
+Path             Active IncludeGroup           
+----             ------ ------------           
+F:\Shares\Shared   True {Audio and Video Files}
+
+
+
+

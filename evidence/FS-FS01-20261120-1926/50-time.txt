@@ -1,0 +1,19 @@
+﻿# 50-time
+# Command: Get-TimeZone; "UTC: $([DateTime]::UtcNow.ToString('s'))"; w32tm /query /source
+# Collected: 2026-11-20T19:28:21 on FS01
+
+
+
+Id                         : South Africa Standard Time
+DisplayName                : (UTC+02:00) Harare, Pretoria
+StandardName               : South Africa Standard Time
+DaylightName               : South Africa Daylight Time
+BaseUtcOffset              : 02:00:00
+SupportsDaylightSavingTime : False
+
+UTC: 2026-11-20T17:28:21
+DC01.lab.teboho.co.za 
+
+
+
+

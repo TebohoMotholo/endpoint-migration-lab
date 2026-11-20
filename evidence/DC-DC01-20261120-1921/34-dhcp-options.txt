@@ -1,0 +1,15 @@
+﻿# 34-dhcp-options
+# Command: Get-DhcpServerv4Scope | ForEach-Object { Get-DhcpServerv4OptionValue -ScopeId $_.ScopeId } | Format-Table -AutoSize
+# Collected: 2026-11-20T19:21:34 on DC01
+
+
+OptionId Name            Type        Value                      VendorClass UserClass PolicyName
+-------- ----            ----        -----                      ----------- --------- ----------
+6        DNS Servers     IPv4Address {10.10.10.10, 10.10.10.11}                                 
+51       Lease           DWord       {86400}                                                    
+3        Router          IPv4Address {10.10.10.1}                                               
+15       DNS Domain Name String      {lab.teboho.co.za}                                         
+
+
+
+

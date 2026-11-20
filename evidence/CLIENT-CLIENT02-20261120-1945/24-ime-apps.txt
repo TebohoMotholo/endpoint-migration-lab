@@ -1,0 +1,13 @@
+﻿# 24-ime-apps
+# Command: Get-ChildItem "HKLM:\SOFTWARE\Microsoft\IntuneManagementExtension\Win32Apps" -Recurse -ErrorAction SilentlyContinue | Where-Object { $_.Property -contains 'ComplianceStateMessage' } | ForEach-Object { (Get-ItemProperty $_.PSPath).ComplianceStateMessage }
+# Collected: 2026-11-20T19:45:44 on CLIENT02
+
+{"Applicability":0,"ComplianceState":2,"DesiredState":2,"ErrorCode":null,"TargetingMethod":0,"InstallContext":2,"TargetType":2,"ProductVersion":null,"AssignmentFilterIds":null}
+{"Applicability":0,"ComplianceState":1,"DesiredState":2,"ErrorCode":null,"TargetingMethod":0,"InstallContext":2,"TargetType":2,"ProductVersion":null,"AssignmentFilterIds":null}
+{"Applicability":0,"ComplianceState":2,"DesiredState":2,"ErrorCode":null,"TargetingMethod":0,"InstallContext":2,"TargetType":2,"ProductVersion":null,"AssignmentFilterIds":null}
+{"Applicability":0,"ComplianceState":2,"DesiredState":2,"ErrorCode":null,"TargetingMethod":0,"InstallContext":2,"TargetType":2,"ProductVersion":null,"AssignmentFilterIds":null}
+{"Applicability":0,"ComplianceState":2,"DesiredState":2,"ErrorCode":null,"TargetingMethod":0,"InstallContext":2,"TargetType":2,"ProductVersion":null,"AssignmentFilterIds":null}
+{"Applicability":0,"ComplianceState":2,"DesiredState":2,"ErrorCode":null,"TargetingMethod":0,"InstallContext":2,"TargetType":2,"ProductVersion":null,"AssignmentFilterIds":null}
+{"Applicability":0,"ComplianceState":2,"DesiredState":2,"ErrorCode":null,"TargetingMethod":0,"InstallContext":2,"TargetType":2,"ProductVersion":null,"AssignmentFilterIds":null}
+
+

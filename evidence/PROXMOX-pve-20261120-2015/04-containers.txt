@@ -1,0 +1,6 @@
+# 04-containers
+# Command: pct list
+# Collected: 2026-11-20T20:15:45+02:00 on pve
+
+VMID       Status     Lock         Name                
+105        running                 web01               

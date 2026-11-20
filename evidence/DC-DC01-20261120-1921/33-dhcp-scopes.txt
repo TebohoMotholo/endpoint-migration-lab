@@ -1,0 +1,12 @@
+﻿# 33-dhcp-scopes
+# Command: Get-DhcpServerv4Scope | Format-Table -AutoSize
+# Collected: 2026-11-20T19:21:30 on DC01
+
+
+ScopeId    SubnetMask    Name    State  StartRange   EndRange     LeaseDuration
+-------    ----------    ----    -----  ----------   --------     -------------
+10.10.10.0 255.255.255.0 LAB-LAN Active 10.10.10.100 10.10.10.200 1.00:00:00   
+
+
+
+

@@ -1,0 +1,25 @@
+﻿Evidence run: CM on CM01 at 2026-11-20T19:38:59
+Run as: cm01\administrator
+OK    01-sql-service
+OK    02-sql-tcp
+OK    03-sql-props
+OK    04-sql-databases
+OK    05-sql-memory
+OK    10-site
+OK    11-site-roles
+OK    12-site-status
+OK    13-boundaries
+OK    14-boundary-groups
+OK    15-discovery
+OK    16-dp
+OK    20-devices.csv
+OK    21-collections
+OK    22-applications.csv
+OK    23-deployment-types
+OK    24-deployments
+OK    25-content-status
+OK    26-baselines
+FAIL  30-comanagement : The term 'Get-CMCoManagementPolicy' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+OK    31-comanagement-db
+OK    50-time
+

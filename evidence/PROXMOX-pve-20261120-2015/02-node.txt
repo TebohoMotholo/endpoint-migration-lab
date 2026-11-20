@@ -1,0 +1,11 @@
+# 02-node
+# Command: lscpu | grep -E 'Model name|^CPU\(s\)'; free -h; uptime
+# Collected: 2026-11-20T20:15:44+02:00 on pve
+
+CPU(s):                                  6
+Model name:                              Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+CPU(s) scaling MHz:                      81%
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi        23Gi       7.3Gi        34Mi       525Mi       7.3Gi
+Swap:          8.0Gi       1.4Gi       6.6Gi
+ 20:15:44 up  1:36,  1 user,  load average: 2.02, 2.56, 4.19

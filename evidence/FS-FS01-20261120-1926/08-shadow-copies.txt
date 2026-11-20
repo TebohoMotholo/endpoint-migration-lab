@@ -1,0 +1,20 @@
+﻿# 08-shadow-copies
+# Command: vssadmin list shadows; vssadmin list shadowstorage
+# Collected: 2026-11-20T19:26:21 on FS01
+
+vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
+(C) Copyright 2001-2013 Microsoft Corp.
+
+No items found that satisfy the query.
+vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
+(C) Copyright 2001-2013 Microsoft Corp.
+
+Shadow Copy Storage association
+   For volume: (F:)\\?\Volume{<guid>}\
+   Shadow Copy Storage volume: (F:)\\?\Volume{<guid>}\
+   Used Shadow Copy Storage space: 0 bytes (0%)
+   Allocated Shadow Copy Storage space: 0 bytes (0%)
+   Maximum Shadow Copy Storage space: 9.77 GB (24%)
+
+
+

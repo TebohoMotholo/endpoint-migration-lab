@@ -1,0 +1,16 @@
+﻿# 10-site
+# Command: InSite { Get-CMSite | Select SiteCode, SiteName, ServerName, Version, BuildNumber | Format-List }
+# Collected: 2026-11-20T19:39:02 on CM01
+
+
+
+SiteCode    : LAB
+SiteName    : Lab Primary Site
+ServerName  : CM01.lab.teboho.co.za
+Version     : 5.00.9141.1000
+BuildNumber : 9141
+
+
+
+
+

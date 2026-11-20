@@ -1,0 +1,9 @@
+﻿# 03-sql-props
+# Command: sqlcmd -S $fqdn -E -W -Q "SET NOCOUNT ON; SELECT CAST(SERVERPROPERTY('ProductVersion') AS varchar(30)) AS Version, CAST(SERVERPROPERTY('Edition') AS varchar(60)) AS Edition, CAST(SERVERPROPERTY('Collation') AS varchar(60)) AS Collation, IS_SRVROLEMEMBER('sysadmin') AS IsSysadmin"
+# Collected: 2026-11-20T19:39:02 on CM01
+
+Version Edition Collation IsSysadmin
+------- ------- --------- ----------
+16.0.1000.6 Enterprise Evaluation Edition (64-bit) SQL_Latin1_General_CP1_CI_AS 1
+
+

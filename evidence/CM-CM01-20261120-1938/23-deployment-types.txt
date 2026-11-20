@@ -1,0 +1,14 @@
+﻿# 23-deployment-types
+# Command: InSite { Get-CMApplication -Fast | ForEach-Object { $a = $_.LocalizedDisplayName; Get-CMDeploymentType -ApplicationName $a | Select @{n='App';e={$a}}, LocalizedDisplayName, Technology } | Format-Table -AutoSize }
+# Collected: 2026-11-20T19:39:10 on CM01
+
+
+App                            LocalizedDisplayName                                       Technology
+---                            --------------------                                       ----------
+Google Chrome                  Google Chrome - Windows Installer (*.msi file)             MSI       
+7-Zip 26.04 (x64 edition)      7-Zip 26.04 (x64 edition) - Windows Installer (*.msi file) MSI       
+7-Zip 26.04 (x64 edition)-copy 7-Zip 26.04 (x64 edition) - Windows Installer (*.msi file) MSI       
+
+
+
+

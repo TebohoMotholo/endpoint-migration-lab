@@ -1,0 +1,21 @@
+﻿# 25-adsync-last-runs
+# Command: Get-ADSyncRunProfileResult -NumberRequested 10 | Select ConnectorName, RunProfileName, Result, StartDate, EndDate | Format-Table -AutoSize
+# Collected: 2026-11-20T19:28:19 on FS01
+
+
+ConnectorName                   RunProfileName        Result              StartDate             EndDate              
+-------------                   --------------        ------              ---------             -------              
+lab.teboho.co.za                Export                success             11/20/2026 5:09:15 PM 11/20/2026 5:09:16 PM
+teboholab.onmicrosoft.com - AAD Export                success             11/20/2026 5:08:55 PM 11/20/2026 5:09:15 PM
+teboholab.onmicrosoft.com - AAD Delta Synchronization success             11/20/2026 5:08:55 PM 11/20/2026 5:08:55 PM
+lab.teboho.co.za                Delta Synchronization success             11/20/2026 5:08:53 PM 11/20/2026 5:08:54 PM
+teboholab.onmicrosoft.com - AAD Delta Import          stopped-server-down 11/20/2026 5:08:33 PM 11/20/2026 5:08:51 PM
+lab.teboho.co.za                Delta Import          success             11/20/2026 5:08:31 PM 11/20/2026 5:08:31 PM
+lab.teboho.co.za                Export                success             11/20/2026 9:16:10 AM 11/20/2026 9:16:10 AM
+teboholab.onmicrosoft.com - AAD Export                success             11/20/2026 9:15:45 AM 11/20/2026 9:16:10 AM
+teboholab.onmicrosoft.com - AAD Delta Synchronization success             11/20/2026 9:15:45 AM 11/20/2026 9:15:45 AM
+lab.teboho.co.za                Delta Synchronization success             11/20/2026 9:15:40 AM 11/20/2026 9:15:44 AM
+
+
+
+

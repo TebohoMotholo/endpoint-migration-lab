@@ -1,0 +1,11 @@
+# 13-time
+# Command: timedatectl
+# Collected: 2026-11-20T20:15:57+02:00 on pve
+
+               Local time: Fri 2026-11-20 20:15:57 SAST
+           Universal time: Fri 2026-11-20 18:15:57 UTC
+                 RTC time: Fri 2026-11-20 18:15:57
+                Time zone: Africa/Johannesburg (SAST, +0200)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no

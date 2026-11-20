@@ -1,0 +1,17 @@
+﻿# 01-system
+# Command: Get-ComputerInfo -Property CsName, OsName, OsVersion, OsBuildNumber, CsDomain, WindowsRegisteredOrganization | Format-List
+# Collected: 2026-11-20T19:45:33 on CLIENT02
+
+
+
+CsName                        : CLIENT02
+OsName                        : Microsoft Windows 11 Business
+OsVersion                     : 10.0.26200
+OsBuildNumber                 : 26200
+CsDomain                      : lab.teboho.co.za
+WindowsRegisteredOrganization : 
+
+
+
+
+

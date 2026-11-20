@@ -1,0 +1,6 @@
+﻿# 54-mde-onboarding
+# Command: Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status" -ErrorAction Stop | Select OnboardingState, LastConnected | Format-List
+# Collected: 2026-11-20T19:46:25 on CLIENT02
+
+
+

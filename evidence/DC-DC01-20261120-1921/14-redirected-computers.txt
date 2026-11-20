@@ -1,0 +1,7 @@
+﻿# 14-redirected-computers
+# Command: (Get-ADDomain).ComputersContainer
+# Collected: 2026-11-20T19:21:22 on DC01
+
+OU=Computers,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za
+
+

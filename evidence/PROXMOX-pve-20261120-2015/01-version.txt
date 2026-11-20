@@ -1,0 +1,24 @@
+# 01-version
+# Command: pveversion -v | head -20
+# Collected: 2026-11-20T20:15:44+02:00 on pve
+
+proxmox-ve: 9.2.0 (running kernel: 7.0.2-6-pve)
+pve-manager: 9.2.2 (running version: 9.2.2/b9984c6d90a4bd80)
+proxmox-kernel-helper: 9.1.0+fde2
+proxmox-kernel-7.0: 7.0.2-6
+proxmox-kernel-7.0.2-6-pve-signed: 7.0.2-6
+ceph-fuse: 19.2.3-pve4
+corosync: 3.1.10-pve2
+criu: 4.1.1-1
+frr-pythontools: 10.6.1-1+pve2
+ifupdown2: 3.3.0-1+pmx12
+intel-microcode: 3.20251111.1~deb13u1
+ksm-control-daemon: 1.5-1
+libjs-extjs: 7.0.0-5
+libproxmox-acme-perl: 1.7.1
+libproxmox-backup-qemu0: 2.0.2
+libproxmox-rs-perl: 0.4.1
+libpve-access-control: 9.1.1
+libpve-apiclient-perl: 3.4.2
+libpve-cluster-api-perl: 9.1.5
+libpve-cluster-perl: 9.1.5

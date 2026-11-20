@@ -1,0 +1,17 @@
+﻿# 02-domain
+# Command: Get-ADDomain | Select DNSRoot, NetBIOSName, DomainMode, PDCEmulator, RIDMaster, InfrastructureMaster | Format-List
+# Collected: 2026-11-20T19:21:19 on DC01
+
+
+
+DNSRoot              : lab.teboho.co.za
+NetBIOSName          : LAB
+DomainMode           : Windows2025Domain
+PDCEmulator          : DC01.lab.teboho.co.za
+RIDMaster            : DC01.lab.teboho.co.za
+InfrastructureMaster : DC01.lab.teboho.co.za
+
+
+
+
+

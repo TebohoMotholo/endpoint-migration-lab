@@ -1,0 +1,14 @@
+﻿# 20-azureadkerberos
+# Command: Get-ADComputer AzureADKerberos -Properties whenCreated | Select Name, DistinguishedName, whenCreated | Format-List
+# Collected: 2026-11-20T19:21:22 on DC01
+
+
+
+Name              : AzureADKerberos
+DistinguishedName : CN=AzureADKerberos,OU=Domain Controllers,DC=lab,DC=teboho,DC=co,DC=za
+whenCreated       : 10/26/2026 9:33:30 AM
+
+
+
+
+

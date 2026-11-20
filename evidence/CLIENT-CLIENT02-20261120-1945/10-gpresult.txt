@@ -1,0 +1,57 @@
+﻿# 10-gpresult
+# Command: gpresult /r /scope computer
+# Collected: 2026-11-20T19:45:41 on CLIENT02
+
+
+Microsoft (R) Windows (R) Operating System Group Policy Result tool v2.0
+© Microsoft Corporation. All rights reserved.
+
+Created on ?20/?11/?2026 at 19:45:43
+
+
+
+RSOP data for  on CLIENT02 : Logging Mode
+------------------------------------------
+
+OS Configuration:            Member Workstation
+OS Version:                  10.0.26200
+Site Name:                   Default-First-Site-Name
+Roaming Profile:             
+Local Profile:               
+Connected over a slow link?: No
+
+
+COMPUTER SETTINGS
+------------------
+    CN=CLIENT02,OU=Computers,OU=Lab,DC=lab,DC=teboho,DC=co,DC=za
+    Last time Group Policy was applied: 20/11/2026 at 19:07:04
+    Group Policy was applied from:      DC01.lab.teboho.co.za
+    Group Policy slow link threshold:   500 kbps
+    Domain Name:                        LAB
+    Domain Type:                        Windows 2008 or later
+
+    Applied Group Policy Objects
+    -----------------------------
+        Lock Screen Timeout
+        Block USS
+        Firewall Baseline
+        Logon Banner
+        ConfigMgr Client Prere
+        Default Domain Policy
+        Local Group Policy
+
+    The computer is a part of the following security groups
+    -------------------------------------------------------
+        BUILTIN\Administrators
+        Everyone
+        BUILTIN\Users
+        NT AUTHORITY\NETWORK
+        NT AUTHORITY\Authenticated Users
+        This Organization
+        CLIENT02$
+        Domain Computers
+        Authentication authority asserted identity
+        System Mandatory Level
+        
+
+

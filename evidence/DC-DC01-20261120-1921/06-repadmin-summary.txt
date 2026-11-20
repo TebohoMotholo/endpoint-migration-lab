@@ -1,0 +1,38 @@
+﻿# 06-repadmin-summary
+# Command: repadmin /replsummary
+# Collected: 2026-11-20T19:21:20 on DC01
+
+Replication Summary Start Time: 2026-11-20 19:21:20
+
+
+
+Beginning data collection for replication summary, this may take awhile:
+
+  .....
+
+
+
+
+
+Source DSA          largest delta    fails/total %%   error
+
+ DC02                  07h:03m:13s    5 /   5  100  (1398) There is a time and/or date difference between the client and server.
+
+
+
+
+
+Destination DSA     largest delta    fails/total %%   error
+
+ DC01                  07h:03m:13s    5 /   5  100  (1398) There is a time and/or date difference between the client and server.
+
+
+
+
+
+Experienced the following operational errors trying to retrieve replication information:
+
+        8341 - DC02.lab.teboho.co.za
+
+
+

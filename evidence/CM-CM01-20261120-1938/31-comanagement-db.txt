@@ -1,0 +1,8 @@
+﻿# 31-comanagement-db
+# Command: sqlcmd -S $fqdn -E -W -d "CM_$SiteCode" -Q "SET NOCOUNT ON; SELECT TOP 50 Name0 AS Device, CoManaged, ComgmtPolicyPresent, MDMEnrolled FROM v_ClientCoManagementState s JOIN v_R_System r ON r.ResourceID = s.ResourceID"
+# Collected: 2026-11-20T19:39:19 on CM01
+
+Msg 207, Level 16, State 1, Server CM01, Line 1
+Invalid column name 'CoManaged'.
+
+

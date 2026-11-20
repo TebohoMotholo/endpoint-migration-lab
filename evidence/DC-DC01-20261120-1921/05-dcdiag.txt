@@ -1,0 +1,155 @@
+﻿# 05-dcdiag
+# Command: dcdiag /q
+# Collected: 2026-11-20T19:21:19 on DC01
+
+         There are warning or error events within the last 24 hours after the
+
+         SYSVOL has been shared.  Failing SYSVOL replication problems may cause
+
+         Group Policy problems. 
+         ......................... DC01 failed test DFSREvent
+
+         [Replications Check,DC01] A recent replication attempt failed:
+
+            From DC02 to DC01
+
+            Naming Context: DC=ForestDnsZones,DC=lab,DC=teboho,DC=co,DC=za
+
+            The replication generated an error (1256):
+
+            The remote system is not available. For information about network troubleshooting, see Windows Help.
+
+            
+
+            The failure occurred at 2026-11-20 19:10:05.
+
+            The last success occurred at 2026-11-20 12:18:43.
+
+            3 failures have occurred since the last success.
+
+         [DC02] DsBindWithSpnEx() failed with error 1398,
+
+         There is a time and/or date difference between the client and server..
+         [Replications Check,DC01] A recent replication attempt failed:
+
+            From DC02 to DC01
+
+            Naming Context: DC=DomainDnsZones,DC=lab,DC=teboho,DC=co,DC=za
+
+            The replication generated an error (1256):
+
+            The remote system is not available. For information about network troubleshooting, see Windows Help.
+
+            
+
+            The failure occurred at 2026-11-20 19:10:05.
+
+            The last success occurred at 2026-11-20 12:18:40.
+
+            3 failures have occurred since the last success.
+
+         [Replications Check,DC01] A recent replication attempt failed:
+
+            From DC02 to DC01
+
+            Naming Context:
+
+            CN=Schema,CN=Configuration,DC=lab,DC=teboho,DC=co,DC=za
+
+            The replication generated an error (1398):
+
+            There is a time and/or date difference between the client and server.
+
+            
+
+            The failure occurred at 2026-11-20 19:10:05.
+
+            The last success occurred at 2026-11-20 12:18:07.
+
+            3 failures have occurred since the last success.
+
+            Kerberos Error.
+
+            Check that the system time between the two servers is sufficiently.
+
+            close. Also check that the time service is functioning correctly
+
+         [Replications Check,DC01] A recent replication attempt failed:
+
+            From DC02 to DC01
+
+            Naming Context: CN=Configuration,DC=lab,DC=teboho,DC=co,DC=za
+
+            The replication generated an error (1398):
+
+            There is a time and/or date difference between the client and server.
+
+            
+
+            The failure occurred at 2026-11-20 19:10:05.
+
+            The last success occurred at 2026-11-20 12:18:07.
+
+            3 failures have occurred since the last success.
+
+            Kerberos Error.
+
+            Check that the system time between the two servers is sufficiently.
+
+            close. Also check that the time service is functioning correctly
+
+         [Replications Check,DC01] A recent replication attempt failed:
+
+            From DC02 to DC01
+
+            Naming Context: DC=lab,DC=teboho,DC=co,DC=za
+
+            The replication generated an error (1398):
+
+            There is a time and/or date difference between the client and server.
+
+            
+
+            The failure occurred at 2026-11-20 19:10:05.
+
+            The last success occurred at 2026-11-20 12:18:19.
+
+            3 failures have occurred since the last success.
+
+            Kerberos Error.
+
+            Check that the system time between the two servers is sufficiently.
+
+            close. Also check that the time service is functioning correctly
+
+         ......................... DC01 failed test Replications
+
+         An error event occurred.  EventID: 0x0000168E
+
+            Time Generated: 11/20/2026   18:58:53
+
+            Event String:
+
+            The dynamic registration of the DNS record '<guid>._msdcs.lab.teboho.co.za. 600 IN CNAME dc01.lab.teboho.co.za.' failed on the following DNS server:  
+
+
+         An error event occurred.  EventID: 0x40000005
+
+            Time Generated: 11/20/2026   19:01:15
+
+            Event String:
+
+            The Kerberos client received a KRB_AP_ERR_TKT_NYV error from the server fs01$. This indicates that the ticket presented to that server is not yet valid (due to a discrepancy between ticket and server time. Contact your system administrator to make sure the client and server times are synchronized, and that the time for the Key Distribution Center Service (KDC) in realm LAB.TEBOHO.CO.ZA is synchronized with the KDC in the client realm.
+
+         An error event occurred.  EventID: 0xC0000007
+
+            Time Generated: 11/20/2026   19:07:54
+
+            Event String:
+
+            The Security Account Manager failed a KDC request in an unexpected way. The error is in the data field. The account name was  and lookup type 0x108.
+
+         ......................... DC01 failed test SystemLog
+
+
+

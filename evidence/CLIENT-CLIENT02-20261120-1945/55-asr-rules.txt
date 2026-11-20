@@ -1,0 +1,6 @@
+﻿# 55-asr-rules
+# Command: $p = Get-MpPreference; for ($i=0; $i -lt $p.AttackSurfaceReductionRules_Ids.Count; $i++) { "{0}  action={1}" -f $p.AttackSurfaceReductionRules_Ids[$i], $p.AttackSurfaceReductionRules_Actions[$i] }
+# Collected: 2026-11-20T19:46:26 on CLIENT02
+
+
+

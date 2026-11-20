@@ -1,0 +1,12 @@
+﻿# 01-sql-service
+# Command: Get-CimInstance Win32_Service -Filter "Name like 'MSSQL%' or Name like 'SQLAgent%'" | Select Name, StartName, State, StartMode | Format-Table -AutoSize
+# Collected: 2026-11-20T19:39:00 on CM01
+
+
+Name        StartName     State   StartMode
+----        ---------     -----   ---------
+MSSQLSERVER LAB\svc-cmsql Running Auto     
+
+
+
+

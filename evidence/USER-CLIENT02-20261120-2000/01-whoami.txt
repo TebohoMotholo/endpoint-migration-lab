@@ -1,0 +1,8 @@
+﻿# 01-whoami
+# Command: whoami; whoami /upn
+# Collected: 2026-11-20T20:00:18 on CLIENT02
+
+lab\teboho
+teboho@teboholab.onmicrosoft.com
+
+

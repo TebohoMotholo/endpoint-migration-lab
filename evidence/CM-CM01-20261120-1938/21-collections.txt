@@ -1,0 +1,16 @@
+﻿# 21-collections
+# Command: InSite { Get-CMDeviceCollection | Where-Object { $_.CollectionID -notlike 'SMS*' } | Select Name, MemberCount, LimitToCollectionName | Format-Table -AutoSize }
+# Collected: 2026-11-20T19:39:07 on CM01
+
+
+Name               MemberCount LimitToCollectionName
+----               ----------- ---------------------
+Lab Workstations             3 All Systems          
+Pilot                        1 All Systems          
+Pilot-Compliance             1 Pilot                
+Pilot-DeviceConfig           1 Pilot-Compliance     
+Pilot-Apps                   1 Pilot-DeviceConfig   
+
+
+
+

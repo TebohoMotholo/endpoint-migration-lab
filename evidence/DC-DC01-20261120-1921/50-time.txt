@@ -1,0 +1,30 @@
+﻿# 50-time
+# Command: Get-TimeZone; "Local: $(Get-Date -Format s)"; "UTC:   $([DateTime]::UtcNow.ToString('s'))"; w32tm /query /source; w32tm /query /status
+# Collected: 2026-11-20T19:21:50 on DC01
+
+
+
+Id                         : South Africa Standard Time
+DisplayName                : (UTC+02:00) Harare, Pretoria
+StandardName               : South Africa Standard Time
+DaylightName               : South Africa Daylight Time
+BaseUtcOffset              : 02:00:00
+SupportsDaylightSavingTime : False
+
+Local: 2026-11-20T19:21:50
+UTC:   2026-11-20T17:21:50
+0.za.pool.ntp.org 
+Leap Indicator: 0(no warning)
+Stratum: 2 (secondary reference - syncd by (S)NTP)
+Precision: -23 (119.209ns per tick)
+Root Delay: 0.0228976s
+Root Dispersion: 0.0709457s
+ReferenceId: 0x9BE81307 (source IP:  155.232.19.7)
+Last Successful Sync Time: 11/20/2026 7:20:27 PM
+Source: 0.za.pool.ntp.org 
+Poll Interval: 8 (256s)
+
+
+
+
+

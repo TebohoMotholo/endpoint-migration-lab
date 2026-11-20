@@ -1,0 +1,17 @@
+﻿# 03-share-access
+# Command: Get-SmbShare | Where-Object { $_.Name -notmatch '^\w\$$|ADMIN\$|IPC\$' } | ForEach-Object { Get-SmbShareAccess -Name $_.Name } | Format-Table -AutoSize
+# Collected: 2026-11-20T19:26:17 on FS01
+
+
+Name      ScopeName AccountName AccessControlType AccessRight
+----      --------- ----------- ----------------- -----------
+Finance   *         Everyone    Allow             Full       
+Home      *         Everyone    Allow             Full       
+HR        *         Everyone    Allow             Full       
+IT        *         Everyone    Allow             Full       
+Shared    *         Everyone    Allow             Full       
+Software$ *         Everyone    Allow             Full       
+
+
+
+
